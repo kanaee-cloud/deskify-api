@@ -1,0 +1,1026 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "tier": "Essentials",
+      "description": "A no-frills, cost-effective package for basic needs.",
+      "price_range": "Rp 6,000,000 - Rp 8,000,000",
+      "components": {
+        "laptop": {
+          "id": "L01",
+          "model_name": "ASUS Vivobook Go 15 OLED E1504FA",
+          "year": 2023,
+          "model_number": "A314",
+          "price": 7299000,
+          "link_tokopedia": "https://tokopedia.link/l51E1QafGOb",
+          "image_url": {
+            "front": "https://dlcdnwebimgs.asus.com/gain/da28e005-0d30-474a-aa12-1eb2e482b922/w800",
+            "back": "https://dlcdnwebimgs.asus.com/gain/1442e785-7d0a-4004-894c-9c921f6a0caa/w800"
+          },
+          "specifications": {
+            "processor": {
+              "brand": "AMD",
+              "model": "Ryzen™ 3 7320U Processor 2.4GHz"
+            },
+            "gpu": {
+              "brand": "AMD",
+              "model": "Radeon™ Graphics",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "8GB",
+              "type": "LPDDR5"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "15.6-inch",
+              "resolution": "1366x768",
+              "refresh_rate": "60Hz"
+            },
+            "battery": {
+              "size": "50WH"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-A, 1x USB 3.2 Gen 1 Type-C",
+              "hdmi": "1x HDMI 1.4",
+              "audio_jack": "1x 3.5mm Combo Audio Jack",
+              "dc_in": "1x DC-in",
+              "other": "1x Card Reader"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1": null,
+          "monitor_2": null
+        },
+        "keyboard": null,
+        "mouse": {
+          "id": "MO01",
+          "model_name": "Logitech G102 Gaming Wired RGB Lightsync",
+          "model_number": "910-005802",
+          "year": 2017,
+          "price": 289000,
+          "link_tokopedia": "https://tokopedia.link/JgsP4N6hGOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/11/b8abfd64-8e18-4990-8c20-7662c490fed3.jpg",
+          "specifications": {
+            "type": "Wired",
+            "dpi": "200 - 8.000",
+            "connectivity": "USB"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO01",
+          "model_name": "Rexus Gaming Mousepad",
+          "model_number": "KVLAR T3",
+          "price": 36000,
+          "link_tokopedia": "https://tokopedia.link/FUNYTkeeGOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/10/11/f4a63b48-413c-4777-b56b-bf9f851eb729.jpg",
+          "size": "35x25x0,4 cm"
+        },
+        "others": {
+          "bracket": null,
+          "game_pad": null,
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 2,
+      "tier": "Office",
+      "description": "Perfect for productivity and office work.",
+      "price_range": "Rp 7,000,000 - Rp 8,000,000",
+      "components": {
+        "laptop": {
+          "id": "L02",
+          "model_name": "Lenovo IdeaPad Slim 3",
+          "year": 2022,
+          "model_number": "82RJ00FMID",
+          "price": 6899000,
+          "image_url": {
+            "front": "https://p4-ofp.static.pub//fes/cms/2024/09/13/spzmghk7e1tv951ptfc3rnxk53xc92310131.png",
+            "back": "https://p1-ofp.static.pub//fes/cms/2024/09/13/02ywqmbiro1hwv3t1v0e5cfpgu74j4300687.png"
+          },
+          "link_tokopedia": "https://tokopedia.link/27zwzzuVGOb",
+          "specifications": {
+            "processor": {
+              "brand": "Intel",
+              "model": "Core i3-1215U"
+            },
+            "gpu": {
+              "brand": "Intel",
+              "model": "UHD Graphics",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "16GB",
+              "type": "DDR4"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "14-inch",
+              "resolution": "1920x1080",
+              "refresh_rate": "60Hz"
+            },
+            "battery": {
+              "size": "38Wh"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort™ 1.2)",
+              "hdmi": "1x HDMI® 1.4b",
+              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
+              "dc_in": "1x Power Connector",
+              "other": "1x Card Reader"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1" : null,
+          "monitor_2" : null
+        },
+        "keyboard": {
+          "id": "K02",
+          "model_name": "Logitech K295 Silent",
+          "model_number": "920-009814",
+          "price": 307300,
+          "link_tokopedia": "https://tokopedia.link/Mej0M3MUGOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/3/899e9477-413a-479e-b08e-1cf4e2178106.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "layout": "Full-size",
+            "features": "Silent Touch Keys",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse": {
+          "id": "MO02",
+          "model_name": "Logitech M220 Silent",
+          "model_number": "920-009814",
+          "price": 131700,
+          "link_tokopedia": "https://tokopedia.link/Mej0M3MUGOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/3/67d0e18f-382e-495a-b4f5-ed90c4e6f6e1.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "1000",
+            "features": "Silent Touch Keys",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO02",
+          "model_name": "Mousepad UGREEN",
+          "model_number": "90565",
+          "price": 36000,
+          "link_tokopedia": "https://tokopedia.link/FUNYTkeeGOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/9/6/ffb17434-e283-4e20-a75a-630dc18ca481.png",
+          "size": "290MM - 225MM - 4MM"
+        },
+        "others": {
+          "bracket": null,
+          "game_pad": null,
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 3,
+      "tier": "Streamline",
+      "description": "Good for newbie streamer.",
+      "price_range": "Rp 8,000,000 - Rp 10,000,000",
+      "components": {
+        "laptop": {
+          "id": "L03",
+          "model_name": "MSI Modern 14",
+          "year": 2022,
+          "model_number": "C12MO-817ID",
+          "price": 7799000,
+          "image_url": {
+            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/9/16/a0848510-cce8-4356-8903-c20da14872df.png",
+            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/9/16/a710cfa7-fec7-4bdd-b09e-fa836040a55a.png"
+          },
+          "link_tokopedia": "https://tokopedia.link/3rxqM9kbHOb",
+          "specifications": {
+            "processor": {
+              "brand": "Intel",
+              "model": "Core i5-1235U"
+            },
+            "gpu": {
+              "brand": "Intel",
+              "model": "Iris Xe Graphics",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "8GB",
+              "type": "DDR4"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "14-inch",
+              "resolution": "1920x1080",
+              "refresh_rate": "60Hz"
+            },
+            "battery": {
+              "size": "39.3 Wh"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "1x Type-C USB3.2 Gen2 with PD charging, 1x Type-A USB3.2 Gen2, 2x Type-A USB2.0",
+              "hdmi": "1x (4K @ 30Hz) HDMI",
+              "audio_jack": "-",
+              "dc_in": "-",
+              "other": "1x Micro SD Card Reader"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1" : {
+            "id": "M05",
+            "model_name": "MSI MP223",
+            "model_number": "MP223",
+            "year": 2020,
+            "price": 975000,
+            "link_tokopedia": "https://tokopedia.link/dvTBr4zbHOb",
+            "image_url": "https://images.tokopedia.net/img/cache/700/VqbcmM/2024/9/19/eefb2659-b620-44a0-87ed-e169074763eb.jpg.webp?ect=4g",
+            "specification": {
+              "resolution" : "1920x1080 FHD",
+              "refresh_rate" : "100Hz",
+              "feature" : "Anti-Flicker"
+            }
+            
+          },
+          "monitor_2" : null
+        },
+        "keyboard": {
+          "id": "K03",
+          "model_name": "Fantech ATOM PRO SERIES PRO96 MERCURY",
+          "model_number": "PRO96 MERCURY",
+          "price": 679000,
+          "link_tokopedia": "https://tokopedia.link/1xwGsFLbHOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/30/684658d9-d9e1-496d-b8aa-aa6f03f6e7e5.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "layout": "96%",
+            "features": "Spill Resistant",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse": {
+          "id": "MO03",
+          "model_name": "Logitech M331 Silent Plus",
+          "model_number": "M331",
+          "price": 239000,
+          "link_tokopedia": "https://tokopedia.link/7JAsCaIcHOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/21/2f7347f7-0240-4062-896e-c1daa3a8c16f.png",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "1000",
+            "features": "Silent Touch Keys",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO03",
+          "model_name": "MOVIO Desk Mat Leather - Office Deskmat",
+          "model_number": "MOVIO-DeskMat",
+          "price": 50000,
+          "link_tokopedia": "https://tokopedia.link/tLVIjiVbHOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/10/20/f3895d33-a272-4ef1-9206-af16c0e57dcc.jpg",
+          "size": " 70 x 35cm"
+        },
+        "others": {
+          "bracket": {
+            "id" : "B00",
+            "model_name" : "ORICO Laptop Stand PFB-A23",
+            "model_number" : "PFB-A23",
+            "price" : 51700,
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/12/10/afb479bc-ee02-4e19-a83c-47a522d7c951.jpg",
+            "link_tokopedia" : "https://tokopedia.link/pXXkED4cHOb",
+            "size" : "36cm"
+          },
+          "game_pad": null,
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 4,
+      "tier": "Core Gamer",
+      "description": "Stream 24/7 ez going.",
+      "price_range": "Rp 10,000,000 - Rp 14,000,000",
+      "components": {
+        "laptop": {
+          "id": "L04",
+          "model_name": "Lenovo LOQ 15IAX9",
+          "year": 2024,
+          "model_number": "C12MO-817ID",
+          "price": 10649000,
+          "image_url": {
+            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/12/f29ff668-a567-477d-baa4-ddb9454d522b.jpg",
+            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/12/aa8c1ade-1234-42ed-955e-deed1cae45bc.jpg"
+          },
+          "link_tokopedia": "https://tokopedia.link/Rl4GuPOMHOb",
+          "specifications": {
+            "processor": {
+              "brand": "Intel",
+              "model": "Core  i5-12450HX"
+            },
+            "gpu": {
+              "brand": "NVIDIA®",
+              "model": "GeForce RTX™ 2050",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "12GB up to 32GB",
+              "type": "DDR4"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "15.6-inch",
+              "resolution": "1920x1080",
+              "refresh_rate": "144Hz"
+            },
+            "battery": {
+              "size": "60Wh"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with PD 140W and DisplayPort™ 1.4",
+              "hdmi": "1x HDMI® 2.1, up to 8K/60Hz",
+              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
+              "dc_in": "1x Power connector",
+              "other": "1x Ethernet (RJ-45)"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1" : {
+            "id": "M06",
+            "model_name": "Digital Alliance DA24-RE165V",
+            "model_number": "DA24-RE165V",
+            "year": 2023,
+            "price": 1485000,
+            "link_tokopedia": "https://tokopedia.link/iygZsv7SHOb",
+            "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/5/10/71ce241a-2aaa-4c19-afff-97326677d237.jpg",
+            "specification": {
+              "resolution" : "1920x1080 FHD",
+              "refresh_rate" : "165Hz",
+              "feature" : "V-Shaped Stand"
+            }
+          },
+          "monitor_2" : null
+        },
+        "keyboard": {
+          "id": "K04",
+          "model_name": "Fantech Maxfit61 Frost",
+          "model_number": "MK857",
+          "price": 449000,
+          "link_tokopedia": "https://tokopedia.link/6DIoDuZOHOb",
+          "image_url" : "https://fantech.id/wp-content/uploads/2023/06/MAXFIT61-MK857.jpg.webp",
+          "specifications": {
+            "type": "Wired",
+            "layout": "60%",
+            "features": "Hot-Swappable",
+            "connectivity": "Detachable Type-C"
+          }
+        },
+        "mouse": {
+          "id": "MO04",
+          "model_name": "Logitech G102",
+          "model_number": "G102 Lightsync",
+          "price": 289000,
+          "link_tokopedia": "https://tokopedia.link/9rAUesfQHOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/11/b8abfd64-8e18-4990-8c20-7662c490fed3.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "1000",
+            "features": "Silent Touch Keys",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO03",
+          "model_name": "LIQUID Series Gaming",
+          "model_number": "QUARTZ",
+          "price": 249000,
+          "link_tokopedia": "https://tokopedia.link/TqL3omURHOb",
+          "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/10/17/18b5e690-922a-4935-903e-e5a4ff0a1ce0.jpg",
+          "size": "40x90x4mm"
+        },
+        "others": {
+          "bracket": {
+            "id" : "B01",
+            "model_name" : "Colta Dual Fan Cooler Laptop Stand Holder Aluminium",
+            "model_number" : "LS-DFAN",
+            "price" : 339000,
+            "image_url" : "https://images.tokopedia.net/img/cache/900/hDjmkQ/2022/12/21/6ea30f71-4a75-44ab-bd15-a6ce557eb022.jpg",
+            "link_tokopedia" : "https://tokopedia.link/53Gtc4ASHOb",
+            "size" : "36cm"
+          },
+          "game_pad": {
+            "id" : "GP00",
+            "model_name" : "Logitech F310 Gamepad",
+            "model_number" : "F310",
+            "price": 319000,
+            "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/20/a45731b1-0048-4ec7-9db7-b33f14b5449a.jpg",
+            "link_tokopedia" : "https://tokopedia.link/agTibecRHOb",
+            "specification" : {
+              "connection" : "Wired",
+              "support" : "Android, TV dan PC"
+            }
+          },
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 5,
+      "tier": "Ignite",
+      "description": "Semi Gamer Chill",
+      "price_range": "Rp 17,000,000 - Rp 20,000,000",
+      "components": {
+        "laptop": {
+          "id": "L05",
+          "model_name": "Lenovo LOQ 15ARP9",
+          "year": 2023,
+          "model_number": "83JC001YID",
+          "price": 16299000,
+          "image_url": {
+            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/1/40eb83de-d350-4b65-9fb8-064c2c754ec4.jpg",
+            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/1/69c82b54-77b9-4df3-a162-f788136d70f2.jpg"
+          },
+          "link_tokopedia": "https://www.tokopedia.com/distrilapid/lenovo-loq-15arp9-ryzen-7-7435hs-rtx-4060-12gb-512gb-ssd-144hz-12gb-96ddb?extParam=ivf%3Dtrue&src=topads",
+          "specifications": {
+            "processor": {
+              "brand": "AMD",
+              "model": "Ryzen™ 7 7435HS"
+            },
+            "gpu": {
+              "brand": "NVIDIA®",
+              "model": "GeForce RTX™ 4060",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "12GB",
+              "type": "SO-DIMM DDR5-4800"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "15.6-inch FHD",
+              "resolution": "1920x1080",
+              "refresh_rate": "144Hz"
+            },
+            "battery": {
+              "size": "60Wh"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with Lenovo® PD 140W and DisplayPort™ 1.4",
+              "hdmi": "1x HDMI® 2.1, up to 8K/60Hz",
+              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
+              "dc_in": "1x Power Connector",
+              "other": "1x RJ45"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1": {
+            "id": "M05",
+            "model_name": "KOORUI 24E3",
+            "model_number": "GN06",
+            "year": 2024,
+            "price": 1400000,
+            "link_tokopedia": "https://www.tokopedia.com/ipason/koorui-24e3-24-inch-fhd-gaming-monitor-165hz-1ms-ips-panel-24e3-64061?extParam=ivf%3Dtrue&src=topads",
+            "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/7/10/bdb1e74b-6d00-49bb-89a1-ed4ea3388840.png",
+            "specification": {
+              "resolution" : "1920x1080 FHD",
+              "refresh_rate" : "165Hz",
+              "feature" : "OD/ FreeSync/G-sync/Star sight/Timer"
+            }
+          },
+          "monitor_2": null
+        },
+        "keyboard": {
+          "id": "K05",
+          "model_name": "Aula F75",
+          "model_number": "F75",
+          "price": 850000,
+          "link_tokopedia": "https://www.tokopedia.com/thockysupply/aula-f75-mechanical-keyboard-wireless-three-mod-full-build-glacier-blue-cf3cf?extParam=ivf%3Dfalse%26keyword%3Daula+f75%26search_id%3D20241120142118199D2BC28887040B5NVQ%26src%3Dsearch",
+          "image_url": "",
+          "specifications": {
+            "type": "Wireless",
+            "layout": "75%",
+            "features": "Dongle USB, Knob",
+            "connectivity": "USB Type C"
+          }
+        },
+        "mouse": {
+          "id": "MO05",
+          "model_name": "Vortex series ONI R1",
+          "model_number": "X1",
+          "price": 339000,
+          "image_url": "",
+          "link_tokopedia": "https://www.tokopedia.com/chemicygaming/vortex-series-oni-r1-lightweight-triple-mode-wireless-gaming-mouse-merah-16ad8?extParam=ivf%3Dfalse&src=topads",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "1000",
+            "features": "Silent Touch Keys",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO02",
+          "model_name": "Mousepad UGREEN",
+          "model_number": "90565",
+          "price": 36000,
+          "link_tokopedia": "https://tokopedia.link/FUNYTkeeGOb",
+          "image_url": "",
+          "size": "290MM - 225MM - 4MM"
+        },
+        "others": {
+          "game_pad": {
+            "id" : "GP01",
+            "model_name" : "Fantech WGP13S",
+            "model_number" : "13S",
+            "price": 399000,
+            "image_url": "https://fantech.id/wp-content/uploads/2023/09/WGP14-HITAM.jpg.webp",
+            "link_tokopedia" : "https://www.tokopedia.com/fantechstore/fantech-gamepad-wireless-hall-effect-nova-wgp14-for-ps4-pc-android-novapro-epsilon-6b03a?extParam=ivf%3Dfalse&src=topads",
+            "specification" : {
+              "connection" : "Bluetooth and Type C Cable",
+              "support" : "PS4,PS3 and PC"
+            }
+          },
+          "bracket": {
+            "id" : "B01",
+            "model_name" : "Nook Swivel Stand",
+            "model_number" : "-",
+            "price" : 379000,
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/11/1/2a6d6e02-52f8-4a6e-8ebe-754048a73574.jpg",
+            "link_tokopedia" : "https://www.tokopedia.com/pressplay/nook-swivel-stand-aluminum-laptop-notebook-360-rotating-holder?extParam=ivf%3Dfalse&src=topads",
+            "size" : "24 x 23.6 x 13cm"
+          },
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 6,
+      "tier": "Overdrive",
+      "description": "Nonstop Drive",
+      "price_range": "Rp 25,000,000",
+      "components": {
+        "laptop": {
+          "id": "L06",
+          "model_name": "HP VICTUS 16 S1221AX",
+          "year": 2021,
+          "model_number": "S1221AX",
+          "price": 19560400,
+          "image_url": {
+            "front": "https://www.softcom.co.id/wp-content/uploads/2024/03/15-FA1094TX-2.jpg",
+            "back": "https://www.softcom.co.id/wp-content/uploads/2022/06/HP-Victus-15-4.jpg"
+          },
+          "link_tokopedia": "https://www.tokopedia.com/agreshpauthorized/laptop-hp-victus-16-s1221ax-ryzen-7-8845hs-rtx4060-8gb-16gb-1tb-w11-ohs-16-1fhd-165hz-rgb-2y-adp-harga-terbaik-up-32gb-1tb-ssd-97a01",
+          "specifications": {
+            "processor": {
+              "brand": "AMD",
+              "model": "Ryzen™ 7 8845HS"
+            },
+            "gpu": {
+              "brand": "NVIDIA®",
+              "model": "GeForce RTX™ 4060",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "16GB",
+              "type": "DDR5-5600"
+            },
+            "memory": {
+              "size": "512GB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "16.1-inch FHD",
+              "resolution": "1920x1080",
+              "refresh_rate": "165Hz"
+            },
+            "battery": {
+              "size": "83Wh"
+            },
+            "os": "Windows 11 Home",
+            "ports": {
+              "usb": "1 USB Type-A 5Gbps signaling rate, Type-A 5Gbps signaling rate (HP Sleep and Charge), Type-C® 5Gbps signaling rate (DisplayPort™ 1.4, HP Sleep and Charge)",
+              "hdmi": "1 HDMI 2.1",
+              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
+              "dc_in": "1x Power Connector",
+              "other": "1x RJ45, 1 AC smart pin"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1": {
+            "id": "M06",
+            "model_name": "LED VIEWSONIC VX2779-HD-PRO",
+            "model_number": "VX2779-HD-PRO",
+            "year": 2021,
+            "price": 1899000,
+            "link_tokopedia": "https://www.tokopedia.com/persadacomputer/monitor-gaming-viewsonic-vx2779-hd-pro-27-fhd-ips-180hz-1ms-hdr10?extParam=ivf%3Dfalse%26keyword%3Dvx2779-hd-pro%26search_id%3D202411201557226A9A6AAA8571CC3BD3KC%26src%3Dsearch",
+            "image_url": {
+              "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/14/543ea7d8-9111-443f-afbb-fd4ba1b80f49.jpg",
+              "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/14/5caf9433-2f94-4445-999c-d11b65350144.jpg"
+            },
+            "specification": {
+              "resolution" : "1920x1080 FHD",
+              "refresh_rate" : "180Hz",
+              "feature" : "SuperClear® IPS Panel"
+            }
+          },
+          "monitor_2": null
+        },
+        "keyboard": {
+          "id": "K06",
+          "model_name": "VortexSeries NS 75",
+          "model_number": "NS 75",
+          "price": 719000,
+          "link_tokopedia": "https://www.tokopedia.com/gadgetcomputerrr/vortexseries-ns-75-ns75-qmk-via-wireless-tri-mode-75-gasket-mount-keyboard-twilight-outemu-jade-w-43f40?extParam=cmp%3D1%26ivf%3Dfalse%26keyword%3Dkeyboard+75%25+wireless%26search_id%3D202411201541396A9A6AAA8571CC1B958S%26src%3Dsearch",
+          "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/1/5ff79705-01a5-4975-a4f9-d47693f971cc.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "layout": "75%",
+            "features": "Adjustable 4-level backlit",
+            "connectivity": "Bluetooth and Type C Cable"
+          }
+        },
+        "mouse": {
+          "id": "MO06",
+          "model_name": "Logitech G PRO X SUPERLIGHT",
+          "model_number": "910-005869",
+          "price": 1689000,
+          "image_url": "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-6.png?v=1",
+          "link_tokopedia": "https://www.tokopedia.com/logitech-g/logitech-g-pro-x-superlight-mouse-gaming-wireless-e-sports-hitam?extParam=ivf%3Dtrue&src=topads",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "25.600",
+            "features": "Ultra Light-weight desing",
+            "connectivity": "USB C, Wireless"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO06",
+          "model_name": "LUNA BLACK Gaming Mousepad Deskmat",
+          "model_number": "-",
+          "price": 219000,
+          "link_tokopedia": "https://www.tokopedia.com/sphexgame/luna-black-gaming-mousepad-deskmat-designed-by-sphex-game-800x300x3mm?extParam=ivf%3Dfalse%26keyword%3Dluna+black+gaming+mousepad+deskmat%26search_id%3D20241120160004356B2CDF6F49AD289E53%26src%3Dsearch",
+          "image_url": "https://resource.logitechg.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_1.0/d_transparent.gif/content/dam/gaming/en/products/pro-x-superlight/pro-x-superlight-black-gallery-6.png?v=1",
+          "size": "900x400x4mm"
+        },
+        "others": {
+          "game_pad": {
+            "id" : "GP02",
+            "model_name" : "Fantech NOVA WGP14",
+            "model_number" : "WGP14",
+            "price": 279000,
+            "image_url": "https://fantechworld.com/cdn/shop/files/ProductImage_ShooterIIIWGP13SWhite.png?v=1725856243&width=720",
+            "link_tokopedia" : "https://www.tokopedia.com/clover-gaming/fantech-wgp13s-shooter-iii-wireless-gamepad-gamingpad-joystick-controller-pc-ps3-laptop-android-wgp13s-black-48569?extParam=ivf%3Dfalse%26keyword%3Dfantech+wgp13s%26search_id%3D202411201429366A9A6AAA8571CC239VT3%26src%3Dsearch&refined=true",
+            "specification" : {
+              "connection" : "Wireless & Wired",
+              "support" : "Switch, PS3, PC"
+            }
+          },
+          "bracket": null,
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 7,
+      "tier": "PoweCore",
+      "description": "Power Never Die",
+      "price_range": "Rp 30,000,000 - Rp 35,000,000",
+      "components": {
+        "laptop": {
+          "id": "L07",
+          "model_name": "Apple Macbook PRO M3 2023",
+          "year": 2023,
+          "model_number": "81VT0096US",
+          "price": 26029998,
+          "image_url": {
+            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/8/27/7bc1e2ee-65b8-4ce6-b19e-baba2b15a298.png",
+            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/11/1/6988add5-fa04-401e-8114-767194ee3043.jpg"
+          },
+          "link_tokopedia": "https://www.tokopedia.com/onestopgaming/apple-macbook-pro-m3-2023-14-inch-ram-8gb-512gb-1tb-ssd-grey-apple-8gb-1tb-25cd1",
+          "specifications": {
+            "processor": {
+              "brand": "Apple",
+              "model": "M3"
+            },
+            "gpu": {
+              "brand": "Apple",
+              "model": "M3",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "8GB",
+              "type": "Unified Memory"
+            },
+            "memory": {
+              "size": "1TB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "14-inch FHD",
+              "resolution": "1920x1080",
+              "refresh_rate": "165Hz"
+            },
+            "battery": {
+              "size": "70kwh"
+            },
+            "os": "MacOS",
+            "ports": {
+              "usb": "Two Thunderbolt / USB 4 ports",
+              "hdmi": "HDMI port",
+              "audio_jack": "MagSafe 3 3.5mm headphone jack",
+              "dc_in": "-",
+              "other": "SDXC card slot"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1": {
+            "id": "M07",
+            "model_name": "ViewSonic OMNI 27 Inch VX2758A-2K-PRO-2 QHD IPS",
+            "model_number": "VX2758A-2K-PRO-2",
+            "year": 2021,
+            "price": 3008000,
+            "link_tokopedia": "https://www.tokopedia.com/enterkomputer/viewsonic-omni-27-inch-vx2758a-2k-pro-2-qhd-ips-170hz-gaming-monitor",
+            "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/2/24/99cb6442-c3b5-4f6d-b7d0-0ff290515841.jpg",
+            "specification": {
+              "resolution" : "2560 x 1440 FHD",
+              "refresh_rate" : "170Hz",
+              "feature" : "2K QHD Resolution"
+            }
+          },
+          "monitor_2": null
+        },
+        "keyboard": {
+          "id": "K07",
+          "model_name": "Keychron K2 Pro QMK White Backlight",
+          "model_number": "K2P-G1",
+          "price": 1800000,
+          "link_tokopedia": "https://www.tokopedia.com/keychron/keychron-k2-pro-qmk-via-fully-assembled-wireless-mechanical-keyboard-white-backlight-blue-switch",
+          "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/1/6/7f1dd42d-5396-4db8-9258-e8bdd847f9f3.jpg",
+          "specifications": {
+            "type": "Wireless, Wired",
+            "layout": "75%",
+            "features": "Hot-swappable Switch",
+            "connectivity": "Bluetooth and Type C Cable"
+          }
+        },
+        "mouse": {
+          "id": "MO07",
+          "model_name": "Logitech MX Master 3S",
+          "model_number": "910-006556",
+          "price": 1579000,
+          "image_url": "https://resource.logitech.com/w_692,c_lpad,ar_4:3,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/products/mice/mx-master-3s/gallery/mx-master-3s-mouse-top-view-pale-gray.png?v=1",
+          "link_tokopedia": "https://www.tokopedia.com/logitech/logitech-mx-master-3s-performance-mouse-wireless-bluetooth-quiet-click-pale-grey",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "200 - 8.000",
+            "features": "Compact",
+            "connectivity": "Bluetooth"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO07",
+          "model_name": "Xiaomi Mi Mijia Hanging Lamp",
+          "model_number": "MJGJD01YL",
+          "price": 459000,
+          "link_tokopedia": "https://www.tokopedia.com/mitech-gadget/xiaomi-mi-mijia-hanging-lamp-computer-monitor-led-light-bar-screenbar",
+          "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/8/a1bf4c91-661a-4f16-95d4-ed294736618b.jpg",
+          "size": "300 mm x 700 mm x 2 mm"
+        },
+        "others": {
+          "game_pad": null,
+          "bracket": {
+            "id" : "B02",
+            "model_name" : "Bracket Monitor Gas Spring OXIMUS P200e",
+            "model_number" : "P200e",
+            "price" : 549000,
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/1/18/cf819ca4-f195-4c31-ad45-d003d4bc0859.jpg",
+            "link_tokopedia" : "https://www.tokopedia.com/eseskomputer/bracket-monitor-gas-spring-oximus-p200e-dual-monitor-lcd-led-hitam-9a733",
+            "size" : "36 cm"
+          },
+          "streamdeck": null,
+          "armrest": null,
+          "desk_lamp": null,
+          "monitor_lamp": null
+        }
+      }
+    },
+    {
+      "id": 8,
+      "tier": "Luxeon",
+      "description": "Luxury style",
+      "price_range": "Rp 35,000,000 - Rp 40,000,000",
+      "components": {
+        "laptop": {
+          "id": "L08",
+          "model_name": "Apple Macbook PRO M4",
+          "year": 2023,
+          "model_number": "RZ09-0483NED3",
+          "price": 30489000,
+          "image_url": {
+            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/11/1/4fa34750-accc-442a-9450-faf38cafb64a.jpg",
+            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/11/1/55dd4bf9-d6d3-48e1-b9ce-a4bb5df84e2a.jpg"
+          },
+          "link_tokopedia": "https://www.tokopedia.com/prostorecomputer/razer-blade-16-rtx4080-i9-13950hx-32gb-1tbssd-w11-16-0qhd-240hz-pkrgb-tgp175-rtx4070-16-1t-laptop-213d5?extParam=ivf%3Dfalse%26keyword%3Drazer+blade+16%26search_id%3D20241120232305356B2CDF6F49AD16B0SF%26src%3Dsearch&refined=true",
+          "specifications": {
+            "processor": {
+              "brand": "Apple",
+              "model": "10-core"
+            },
+            "gpu": {
+              "brand": "Apple",
+              "model": "10-core",
+              "size": "Integrated"
+            },
+            "ram": {
+              "size": "16GB up to 24GB",
+              "type": "Unified Memory"
+            },
+            "memory": {
+              "size": "256GB up to 1TB",
+              "type": "SSD"
+            },
+            "display": {
+              "size": "14-inch FHD",
+              "resolution": "1920x1080",
+              "refresh_rate": "120Hz"
+            },
+            "battery": {
+              "size": "70kwh"
+            },
+            "os": "MacOS",
+            "ports": {
+              "usb": "Thunderbolt 5 ports",
+              "hdmi": "HDMI port",
+              "audio_jack": "MagSafe 3 3.5mm headphone jack",
+              "dc_in": "-",
+              "other": "SDXC card slot"
+            }
+          }
+        },
+        "monitor": {
+          "monitor_1": {
+            "id": "M08",
+            "model_name": "Lenovo Monitor Legion R25f-30",
+            "model_number": "R25f-30",
+            "year": 2021,
+            "price": 3189000,
+            "link_tokopedia": "https://www.tokopedia.com/lenovo-official/lenovo-monitor-legion-r25f-30-24-5-va-240hz?extParam=ivf%3Dfalse&src=topads",
+            "image_url": "https://www.tokopedia.com/lenovo-official/lenovo-monitor-legion-r25f-30-24-5-va-240hz?extParam=ivf%3Dfalse&src=topads",
+            "specification": {
+              "resolution" : "1920x1080 FHD",
+              "refresh_rate" : "280Hz",
+              "feature" : "AMD FreeSync Premium"
+            }
+          },
+          "monitor_2": {
+            "id": "M09",
+            "model_name": "Samsung 27 Inch C27R500 Curved FHD LED FREESYNC",
+            "model_number": "C27R500.",
+            "year": 2019,
+            "price": 1685000,
+            "link_tokopedia": "https://www.tokopedia.com/planetcomputer/monitor-samsung-27-inch-c27r500-curved-fhd-led-freesync-c27r500fhe-27-525c2?extParam=ivf%3Dfalse%26whid%3D9368297&src=topads",
+            "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/1/6/98d7d4c3-8702-465e-826d-51c5560b9a98.jpg",
+            "specification" : {
+              "resolution" : "1920 x 1080 FHD",
+              "refresh_rate" : "75Hz",
+              "feature": "Curved Display"
+            }
+          }
+        },
+        "keyboard": {
+          "id": "K08",
+          "model_name": "NuPhy Air75 V2",
+          "model_number": "NuPhy Air75 V2",
+          "price": 1920000,
+          "link_tokopedia": "https://www.tokopedia.com/ptnmtindo/nuphy-air75-v2-version-2-wireless-custom-mechanical-keyboard-lunar-grey-red-2-0-f45ff?extParam=ivf%3Dtrue&src=topads",
+          "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/17/b3fabe1b-9663-451f-a7c7-b9964377085a.jpg",
+          "specifications": {
+            "type": "Wireless",
+            "layout": "65%",
+            "features": "Hot swap support",
+            "connectivity": "Bluetooth and Type C Cable"
+          }
+        },
+        "mouse": {
+          "id": "MO08",
+          "model_name": "IRIS Ultralight Ergonomic Wireless",
+          "model_number": "910-004642",
+          "price": 559000,
+          "image_url": "https://pressplayid.com/cdn/shop/files/Varian_IRIS_White.jpg?v=1724987035&width=823",
+          "link_tokopedia": "https://www.tokopedia.com/pressplay/iris-ultralight-ergonomic-wireless-gaming-mouse-by-press-play-black-mouse-only-ae50e?extParam=ivf%3Dfalse%26keyword%3Dmouse+wireless+ergonomic%26search_id%3D20241121002241C9331BF733E4BB332ZON%26src%3Dsearch",
+          "specifications": {
+            "type": "Wireless",
+            "dpi": "26000",
+            "features": "Customizable dengan official software",
+            "connectivity": "Type C Cable"
+          }
+        },
+        "mouse_pad": {
+          "id": "MSO08",
+          "model_name": "HACHIMAN COLLECTION - PREMIUM DESKMAT - 神奈川浪 | KANAGAWA",
+          "model_number": "-",
+          "price": 209000,
+          "link_tokopedia": "https://www.tokopedia.com/gaming-rumah/hachiman-collection-premium-deskmat-kanagawa-series-kanagawa-blue-700-x-300-x-4?extParam=ivf%3Dfalse&src=topads",
+          "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/11/13/b65b080e-170c-4c5c-9759-78324cd41422.jpg",
+          "size": "900 x 400 x 4 mm"
+        },
+        "others": {
+          "game_pad": null,
+          "bracket": {
+            "id" : "B02",
+            "model_name" : "Bracket Monitor Gas Spring OXIMUS P200e",
+            "model_number" : "P200e",
+            "price" : 549000,
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/1/18/cf819ca4-f195-4c31-ad45-d003d4bc0859.jpg",
+            "link_tokopedia" : "https://www.tokopedia.com/eseskomputer/bracket-monitor-gas-spring-oximus-p200e-dual-monitor-lcd-led-hitam-9a733",
+            "size" : "36 cm"
+          },
+          "streamdeck": {
+            "id" : "SD01",
+            "model_name" : "Elgato Stream Deck MK 2",
+            "model_number" : "10GAA9901",
+            "price" : 3049000,
+            "link_tokopedia" : "https://www.tokopedia.com/festivalkamera/elgato-stream-deck-mk-2-streamdeck-mk2-control-pad-resmi-202e6?extParam=ivf%3Dfalse%26keyword%3Dstreamdeck%26search_id%3D20241121002947D348C22A0D21810C07XB%26src%3Dsearch&refined=true",
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2022/7/20/927a8076-1aa9-44c1-8da7-0f42d0476192.jpg",
+            "specification" : {
+              "connectivity" : "USB Type-C to Type A Cable",
+              "feature" : "Add Intro and Outro Graphics,Drag-and-Drop Actions to KeysSave, Key Configurations as ProfilesWindows and Mac Compatible"
+            }
+          },
+          "armrest": {
+            "id" : "AR01",
+            "model_name" : "Triple W Wooden Walnut Wrist Pad",
+            "model_number" : "-",
+            "price" : 155000,
+            "link_tokopedia" : "https://www.tokopedia.com/triplewofficial/triple-w-wooden-walnut-wrist-pad-penyanggah-arm-rest-keyboard-komputer-s?extParam=ivf%3Dfalse&src=topads",
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2021/2/20/4175ed5b-c702-48b3-a3a9-d8df0505dae0.jpg",
+            "size" : "30 x 8 x 1.7 cm"
+          },
+          "desk_lamp": {
+            "id" : "DL01",
+            "model_name" : "Lampu LED Meja Belajar USB",
+            "link_tokopedia" : "https://www.tokopedia.com/mgtshp/lampu-led-meja-belajar-usb-lampu-baca-desk-lamp-baterai-full-feature-putih?extParam=ivf%3Dfalse&src=topads",
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2020/10/28/191ac5ca-4868-4c8e-b5b4-ab403a1f9251.jpg",
+            "feature" : "Timer Lamp",
+            "connector" : "USB Type C"
+          },
+          "monitor_lamp": {
+            "id" : "ML01",
+            "model_name" : "Xiaomi Mi Mijia Hanging Lamp Computer Monitor Led Light Bar Screenbar",
+            "model_number" : "MJGJD01YL",
+            "price" : 459000,
+            "link_tokopedia" : "https://www.tokopedia.com/mitech-gadget/xiaomi-mi-mijia-hanging-lamp-computer-monitor-led-light-bar-screenbar?extParam=ivf%3Dfalse%26keyword%3Dxiaomi+mi+mijia+hanging+lamp+computer+monitor+led+light+bar+screenbar%26search_id%3D20241121011531D348C22A0D2181295JSP%26src%3Dsearch",
+            "image_url" : "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/6/8/a1bf4c91-661a-4f16-95d4-ed294736618b.jpg",
+            "feature" : "Touch Control",
+            "connector" : "USB Type C"
+          }
+        }
+      }
+    }
+  ]
+}

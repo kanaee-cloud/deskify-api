@@ -1,0 +1,32 @@
+# Ignore Node modules
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore Firebase Admin JSON (credentials)
+deskify-adminsdk.json
+
+firebase_credentials_base64.txt
+
+
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore build files (if using build tool like Webpack or others)
+build/
+dist/
+
+# Ignore OS specific files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore coverage directory (if using test coverage tool like Jest)
+coverage/

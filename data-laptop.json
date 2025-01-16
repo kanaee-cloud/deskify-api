@@ -1,0 +1,84 @@
+{
+    "laptops" : [
+        {
+            "id" : 1,
+            "model_name" : "ASUS Vivobook Go 15 OLED E1504FA",
+            "ram" : "8GB",
+            "display" : "15.6-inch",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "60Hz",
+            "price" : 7299000,
+            "image_url" : "https://dlcdnwebimgs.asus.com/gain/da28e005-0d30-474a-aa12-1eb2e482b922/w800"
+        },
+        {
+            "id" : 2,
+            "model_name" : "Lenovo IdeaPad Slim 3",
+            "ram" : "16GB",
+            "display" : "14-inch",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "60Hz",
+            "price" : 6899000,
+            "image_url" : "https://p4-ofp.static.pub//fes/cms/2024/09/13/spzmghk7e1tv951ptfc3rnxk53xc92310131.png"
+        },
+        {
+            "id" : 3,
+            "model_name" : "MSI Modern 14",
+            "ram" : "8GB",
+            "display" : "15.6-inch",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "60Hz",
+            "price" : 7799000,
+            "image_url" : "https://els.id/wp-content/uploads/2024/05/MSI-Modern-14-H.png"
+        },
+        {
+            "id" : 4,
+            "model_name" : "Lenovo LOQ 15IAX9",
+            "ram" : "12GB up to 32GB",
+            "display" : "15.6-inch",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "60Hz",
+            "price" : 10649000,
+            "image_url" : "https://p4-ofp.static.pub//fes/cms/2024/05/20/d6onrgwtki5a57q687ztkqftuog5mf017643.png"
+        },
+        {
+            "id" : 5,
+            "model_name" : "Lenovo LOQ 15ARP9",
+            "ram" : "12GB",
+            "display" : "15-6-inch",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "144Hz",
+            "price" : 16299000,
+            "image_url" : "https://p4-ofp.static.pub/ShareResource/na/products/legion/560x450/lenovo-loq-15-v3.png"
+        },
+        {
+            "id" : 6,
+            "model_name" : "HP VICTUS 16 S1221AX",
+            "ram" : "16GB",
+            "display" : "16.1-inch FHD",
+            "memory" : "512GB SSD",
+            "refresh_rate" : "165Hz",
+            "price" : 19560400,
+            "image_url" : "https://id-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/A/4/A4UA1PA-1_T1725255796.png"
+        },
+        {
+            "id" : 7,
+            "model_name" : "Apple Macbook PRO M3 2023",
+            "ram" : "8GB",
+            "display" : "14-inch",
+            "memory" : "1TB SSD",
+            "refresh_rate" : "165Hz",
+            "price" : 26029998,
+            "image_url" : "https://macstore.id/wp-content/uploads/2020/12/mbp14-spacegray-gallery1-202310.jpeg"
+        },
+        {
+            "id" : 8,
+            "model_name": "Apple Macbook PRO M4",
+            "ram": "16GB",
+            "display": "14-inch",
+            "memory": "1TB SSD",
+            "refresh_rate": "120Hz",
+            "price": 30489000,
+            "image_url": "https://www.apple.com/newsroom/images/2024/10/new-macbook-pro/article/Apple-MacBook-Pro-M4-lineup_big.jpg.large.jpg"
+        }
+    ]
+}
