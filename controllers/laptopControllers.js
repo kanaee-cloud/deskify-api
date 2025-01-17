@@ -5,7 +5,33 @@ const LaptopController = {
 
     async getLaptop(req, res){
         try{
+            const { brands, minPrice, maxPrice, sortByPrice } = req.query
             const laptops = await LaptopModel.getAllLaptop()
+
+            let filteredLaptops = laptops
+
+            if(brands){
+                const brandArray = brands.split(',')
+                filteredLaptops = filteredLaptops.filter(laptop => brandArray.includes(laptop.brand))
+            }
+
+            if(minPrice || maxPrice){
+                filteredLaptops = filteredLaptops.filter(laptop => {
+                    const price = laptop.price
+                    if(minPrice && price < Number(minPrice)) return false 
+                    if(maxPrice && price > Number(maxPrice)) return false
+                    return true 
+                })
+            }
+
+            if(sortByPrice){
+                filteredLaptops.sort((a, b) => {
+                    return sortByPrice === 'asc' ? a.price - b.price : b.price - a.price
+                })
+            }
+
+
+
             if(laptops.length === 0){
                 return res.status(404).json({
                     message: 'Gaada datanya'
@@ -13,12 +39,12 @@ const LaptopController = {
             }
 
             res.status(200).json({
-                laptops,
+                filteredLaptops,
             })
         } catch(error){
-            console.error('gagal ambil package : ', error)
+            console.error('Error Fetching Laptops : ', error)
             res.status(500).json({
-                message: 'error cuk',
+                message: 'Failed to fetch laptops',
                 error: error.message
             })
         }

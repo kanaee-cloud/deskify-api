@@ -11,6 +11,7 @@ const LaptopModel = {
 
             const laptops = {
                 id: data?.id || null,
+                brand: data?.brand || null,
                 model_name: data?.model_name || null,
                 ram: data?.ram || null,
                 display: data?.display || null,
