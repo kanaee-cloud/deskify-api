@@ -4,23 +4,24 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const packageRoute = require('./routes/packageRoute')
 const laptopRoute = require('./routes/laptopRoute')
+const swaggerUi = require('swagger-ui-express')
+const swaggerSpec = require('./swagger')
 
 const app = express();
 const PORT = 3001;
 
 const corsOptions = {
-  origin: 'http://localhost:3001'
+  origin: 'http://localhost:3000'
 }
 
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use('/packages', packageRoute);
-app.use('/laptop', laptopRoute)
+app.use('/laptops', laptopRoute)
 
 
-app.get('/', (req, res) => {
-  res.send('Welcome to the Deskify Product API!');
-});
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 
 
 app.listen(PORT, () => {
