@@ -11,7 +11,7 @@ const swaggerDefinition = {
         {
             url: 'https://deskify-api.vercel.app',
             description: 'Development Server',
-        }
+        }   
     ],
 };
 

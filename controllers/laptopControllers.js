@@ -8,15 +8,15 @@ const LaptopController = {
             const { brands, minPrice, maxPrice, sortByPrice } = req.query
             const laptops = await LaptopModel.getAllLaptop()
 
-            let filteredLaptops = laptops
+            let laptop = laptops
 
             if(brands){
                 const brandArray = brands.split(',')
-                filteredLaptops = filteredLaptops.filter(laptop => brandArray.includes(laptop.brand))
+                laptop = laptop.filter(laptop => brandArray.includes(laptop.brand))
             }
 
             if(minPrice || maxPrice){
-                filteredLaptops = filteredLaptops.filter(laptop => {
+                laptop = laptop.filter(laptop => {
                     const price = laptop.price
                     if(minPrice && price < Number(minPrice)) return false 
                     if(maxPrice && price > Number(maxPrice)) return false
@@ -25,7 +25,7 @@ const LaptopController = {
             }
 
             if(sortByPrice){
-                filteredLaptops.sort((a, b) => {
+                laptop.sort((a, b) => {
                     return sortByPrice === 'asc' ? a.price - b.price : b.price - a.price
                 })
             }
@@ -39,7 +39,7 @@ const LaptopController = {
             }
 
             res.status(200).json({
-                filteredLaptops,
+                laptop,
             })
         } catch(error){
             console.error('Error Fetching Laptops : ', error)

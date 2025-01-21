@@ -5,7 +5,7 @@ const PackageController = {
     async getPackages(req, res){
         try {
             const { page = 1 } = req.query;
-            const limit = 2;
+            const limit = 4;
             const offset = (page - 1) * limit;
 
             const packages = await PackageModel.getAllPackages(limit, offset)
