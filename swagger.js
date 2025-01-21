@@ -9,7 +9,7 @@ const swaggerDefinition = {
     },
     servers: [
         {
-            url: 'deskify-api.vercel.app',
+            url: 'https://deskify-api.vercel.app',
             description: 'Development Server',
         }
     ],
