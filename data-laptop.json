@@ -9,7 +9,9 @@
       "memory": "2TB SSD",
       "refresh_rate": "250Hz",
       "price": 59745873,
-      "image_url": "https://images.versus.io/objects/acer-predator-helios-16-2023-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4080-laptop-32gb-ram-2tb-ssd.front.variety.1706535089139.jpg"
+      "image_url": "https://images.versus.io/objects/acer-predator-helios-16-2023-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4080-laptop-32gb-ram-2tb-ssd.front.variety.1706535089139.jpg",
+      "processor": "Intel Core i9-13900HX",
+      "gpu": "NVIDIA GeForce RTX 4080"
     },
     {
       "id": 2,
@@ -20,7 +22,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 58677046,
-      "image_url": "https://images.versus.io/objects/acer-predator-helios-300-ph315-55-79fw-15-6-qhd-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3070-ti-laptop-32gb-ram-1tb-ssd.front.variety.1662987065942.jpg"
+      "image_url": "https://images.versus.io/objects/acer-predator-helios-300-ph315-55-79fw-15-6-qhd-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3070-ti-laptop-32gb-ram-1tb-ssd.front.variety.1662987065942.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "NVIDIA GeForce RTX 3070 Ti"
     },
     {
       "id": 3,
@@ -31,7 +35,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "240Hz",
       "price": 37090974,
-      "image_url": "https://images.versus.io/objects/acer-predator-helios-16-2023-intel-core-i7-13700hx-2-1ghz-nvidia-geforce-rtx-4060-laptop-16gb-ram-1tb-ssd.front.variety.1706280660051.jpg"
+      "image_url": "https://images.versus.io/objects/acer-predator-helios-16-2023-intel-core-i7-13700hx-2-1ghz-nvidia-geforce-rtx-4060-laptop-16gb-ram-1tb-ssd.front.variety.1706280660051.jpg",
+      "processor": "Intel Core i7-13700HX",
+      "gpu": "NVIDIA GeForce RTX 4060"
     },
     {
       "id": 4,
@@ -42,7 +48,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "250Hz",
       "price": 36158342,
-      "image_url": "https://images.versus.io/objects/acer-predator-triton-14-2023-intel-core-i7-13700h-2-4ghz-nvidia-geforce-rtx-4070-laptop-16gb-ram-1tb-ssd.front.variety.1697027837440.jpg"
+      "image_url": "https://images.versus.io/objects/acer-predator-triton-14-2023-intel-core-i7-13700h-2-4ghz-nvidia-geforce-rtx-4070-laptop-16gb-ram-1tb-ssd.front.variety.1697027837440.jpg",
+      "processor": "Intel Core i7-13700H",
+      "gpu": "NVIDIA GeForce RTX 4070"
     },
     {
       "id": 5,
@@ -53,7 +61,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 22626461,
-      "image_url": "https://images.versus.io/objects/acer-swift-go-16-sfg16-71-7902-16-intel-core-i7-13700h-2-4ghz-16gb-ram-1tb-ssd.front.variety.1695910617359.jpg"
+      "image_url": "https://images.versus.io/objects/acer-swift-go-16-sfg16-71-7902-16-intel-core-i7-13700h-2-4ghz-16gb-ram-1tb-ssd.front.variety.1695910617359.jpg",
+      "processor": "Intel Core i7-13700H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 6,
@@ -64,7 +74,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 21800594,
-      "image_url": "https://images.versus.io/objects/acer-swift-x-sfx16-52g-73u6-intel-core-i7-1260p-2-1ghz-intel-arc-a370m-16gb-ram-512gb-ssd.front.variety.1677149635444.jpg"
+      "image_url": "https://images.versus.io/objects/acer-swift-x-sfx16-52g-73u6-intel-core-i7-1260p-2-1ghz-intel-arc-a370m-16gb-ram-512gb-ssd.front.variety.1677149635444.jpg",
+      "processor": "Intel Core i7-1260P",
+      "gpu": "NVIDIA GeForce RTX 3050"
     },
     {
       "id": 7,
@@ -75,7 +87,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 14137509,
-      "image_url": "https://images.versus.io/objects/acer-chromebook-spin-713-13-5-intel-core-i3-10110u-2-1ghz-8gb-ram-256gb-ssd.front.variety.1613238513250.jpg"
+      "image_url": "https://images.versus.io/objects/acer-chromebook-spin-713-13-5-intel-core-i3-10110u-2-1ghz-8gb-ram-256gb-ssd.front.variety.1613238513250.jpg",
+      "processor": "Intel Core i3-10110U",
+      "gpu": "Intel UHD Graphics"
     },
     {
       "id": 8,
@@ -86,7 +100,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "120Hz",
       "price": 20002875,
-      "image_url": "https://images.versus.io/objects/acer-swift-x-sfx14-71g-5911-14-intel-core-i5-13500h-2-6ghz-nvidia-geforce-rtx-3050-laptop-16gb-ram-512gb-ssd.front.variety.1695998843800.jpg"
+      "image_url": "https://images.versus.io/objects/acer-swift-x-sfx14-71g-5911-14-intel-core-i5-13500h-2-6ghz-nvidia-geforce-rtx-3050-laptop-16gb-ram-512gb-ssd.front.variety.1695998843800.jpg",
+      "processor": "Intel Core i5-13500H",
+      "gpu": "NVIDIA GeForce RTX 3050"
     },
     {
       "id": 9,
@@ -97,7 +113,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 25952071,
-      "image_url": "https://images.versus.io/objects/acer-enduro-n3-en314-51w-14-intel-core-i5-10210u-1-6ghz-8gb-ram-256gb-ssd.front.variety.1653485625947.jpg"
+      "image_url": "https://images.versus.io/objects/acer-enduro-n3-en314-51w-14-intel-core-i5-10210u-1-6ghz-8gb-ram-256gb-ssd.front.variety.1653485625947.jpg",
+      "processor": "Intel Core i5-10210U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 10,
@@ -108,7 +126,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 24671370,
-      "image_url": "https://images.versus.io/objects/acer-swift-3-13-5-intel-core-i7-1065g7-1-3ghz-16gb-ram-1tb-ssd.front.variety.1600704397053.jpg"
+      "image_url": "https://images.versus.io/objects/acer-swift-3-13-5-intel-core-i7-1065g7-1-3ghz-16gb-ram-1tb-ssd.front.variety.1600704397053.jpg",
+      "processor": "Intel Core i7-1065G7",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 11,
@@ -119,7 +139,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "144Hz",
       "price": 23947055,
-      "image_url": "https://images.versus.io/objects/acer-nitro-5-an517-54-79l1-17-3-intel-core-i7-11800h-2-3ghz-nvidia-geforce-rtx-3050-ti-laptop-16gb-ram-1tb-ssd.front.variety.1666695358010.jpg"
+      "image_url": "https://images.versus.io/objects/acer-nitro-5-an517-54-79l1-17-3-intel-core-i7-11800h-2-3ghz-nvidia-geforce-rtx-3050-ti-laptop-16gb-ram-1tb-ssd.front.variety.1666695358010.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "NVIDIA GeForce RTX 3060"
     },
     {
       "id": 12,
@@ -130,7 +152,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 9999000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/11/050a3e9d-7aff-4139-ae98-6073e28f60ec.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/12/11/050a3e9d-7aff-4139-ae98-6073e28f60ec.jpg",
+      "processor": "Intel Core i7-10750H",
+      "gpu": "NVIDIA GeForce GTX 1650"
     },
     {
       "id": 13,
@@ -141,7 +165,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 16899000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/5/15/c2ce9768-a365-4445-bcb2-ec35e9a97296.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/5/15/c2ce9768-a365-4445-bcb2-ec35e9a97296.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "NVIDIA GeForce GTX 1650 Ti"
     },
     {
       "id": 14,
@@ -152,7 +178,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 9298000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/30/2e3309ea-314b-4c8b-a395-e949d79fc574.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/30/2e3309ea-314b-4c8b-a395-e949d79fc574.jpg",
+      "processor": "Intel Core i5-1135G7",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 15,
@@ -163,7 +191,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 7449000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/10/24/aa8526c9-2418-497e-b650-49eeb7773dc4.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/10/24/aa8526c9-2418-497e-b650-49eeb7773dc4.jpg",
+      "processor": "AMD Ryzen 5 5500U",
+      "gpu": "AMD Radeon Vega 6"
     },
     {
       "id": 16,
@@ -174,7 +204,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 6910000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/83203415-2bfc-474f-8a98-0d7834b7baf8.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/83203415-2bfc-474f-8a98-0d7834b7baf8.jpg",
+      "processor": "AMD Ryzen 7 5700U",
+      "gpu": "AMD Radeon Vega 8"
     },
     {
       "id": 17,
@@ -185,7 +217,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 2399000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/20/ca961817-9ae2-4776-a0ae-d46a0ed2a754.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/20/ca961817-9ae2-4776-a0ae-d46a0ed2a754.jpg",
+      "processor": "Intel Celeron N4020",
+      "gpu": "Intel HD Graphics"
     },
     {
       "id": 18,
@@ -196,7 +230,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 4210000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/23/b6a041b2-2d14-46a1-97f9-d548f39aa24f.png"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/7/23/b6a041b2-2d14-46a1-97f9-d548f39aa24f.png",
+      "processor": "Intel Core i3-1115G4",
+      "gpu": "Intel UHD Graphics 600"
     },
     {
       "id": 19,
@@ -207,7 +243,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 5399000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/hDjmkQ/2024/7/12/f7d7e6af-b9f2-48b8-b211-5f24b8857ed1.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/hDjmkQ/2024/7/12/f7d7e6af-b9f2-48b8-b211-5f24b8857ed1.jpg",
+      "processor": "Intel Core i5-1135G7",
+      "gpu": "Intel UHD Graphics 600"
     },
     {
       "id": 20,
@@ -218,7 +256,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 5010000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/c5e7e9f1-33fb-48e4-9477-481c5a4157b2.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/c5e7e9f1-33fb-48e4-9477-481c5a4157b2.jpg",
+      "processor": "AMD Ryzen 5 5500U",
+      "gpu": "AMD Radeon Vega 6"
     },
     {
       "id": 21,
@@ -229,7 +269,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 6910000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/7f17c6b9-1324-4b46-932f-cb267ac86bf9.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/5/7f17c6b9-1324-4b46-932f-cb267ac86bf9.jpg",
+      "processor": "AMD Ryzen 7 5700U",
+      "gpu": "AMD Radeon Vega 8"
     },
     {
       "id": 22,
@@ -240,7 +282,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 6399000,
-      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/2/4/8da05605-fb73-4df2-bf86-fa1b9b512f95.jpg"
+      "image_url": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/2/4/8da05605-fb73-4df2-bf86-fa1b9b512f95.jpg",
+      "processor": "Intel Core i7-1165G7",
+      "gpu": "AMD Radeon RX Vega 8"
     },
     {
       "id": 23,
@@ -251,7 +295,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 82238763,
-      "image_url": "https://images.versus.io/objects/hp-zbook-fury-g8-15-6-intel-core-i9-11950h-2-6ghz-nvidia-rtx-a5000-16gb-laptop-64gb-ram-1tb-ssd.front.variety.1686210115424.jpg"
+      "image_url": "https://images.versus.io/objects/hp-zbook-fury-g8-15-6-intel-core-i9-11950h-2-6ghz-nvidia-rtx-a5000-16gb-laptop-64gb-ram-1tb-ssd.front.variety.1686210115424.jpg",
+      "processor": "Intel Core i9-11950H",
+      "gpu": "NVIDIA RTX A5000"
     },
     {
       "id": 24,
@@ -262,7 +308,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 63879264,
-      "image_url": "https://images.versus.io/objects/hp-elite-x360-1040-g10-14-intel-core-i7-1355u-1-7ghz-32gb-ram-1tb-ssd.front.variety.1712054589250.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elite-x360-1040-g10-14-intel-core-i7-1355u-1-7ghz-32gb-ram-1tb-ssd.front.variety.1712054589250.jpg",
+      "processor": "Intel Core i7-1355U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 25,
@@ -273,7 +321,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 56591281,
-      "image_url": "https://images.versus.io/objects/hp-elite-dragonfly-13-3-intel-core-i7-8665u-1-9ghz-16gb-ram-256gb-ssd.front.variety.1611159698676.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elite-dragonfly-13-3-intel-core-i7-8665u-1-9ghz-16gb-ram-256gb-ssd.front.variety.1611159698676.jpg",
+      "processor": "Intel Core i7-8665U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 26,
@@ -284,7 +334,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 39524512,
-      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g10-14-wuxga-intel-core-i7-1365u-1-8ghz-nvidia-rtx-a500-laptop-32gb-ram-1tb-ssd.front.variety.1704466339393.jpg"
+      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g10-14-wuxga-intel-core-i7-1365u-1-8ghz-nvidia-rtx-a500-laptop-32gb-ram-1tb-ssd.front.variety.1704466339393.jpg",
+      "processor": "Intel Core i7-1365U",
+      "gpu": "NVIDIA RTX A500"
     },
     {
       "id": 27,
@@ -295,7 +347,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 39457486,
-      "image_url": "https://images.versus.io/objects/hp-elitebook-1040-g10-14-intel-core-i7-1370p-1-9ghz-32gb-ram-512gb-ssd.front.variety.1712052040673.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elitebook-1040-g10-14-intel-core-i7-1370p-1-9ghz-32gb-ram-512gb-ssd.front.variety.1712052040673.jpg",
+      "processor": "Intel Core i7-1370P",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 28,
@@ -306,7 +360,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 38210538,
-      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g9-16-wuxga-intel-core-i7-1255u-1-7ghz-nvidia-t500-16gb-ram-512gb-ssd.front.variety.1704545264648.jpg"
+      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g9-16-wuxga-intel-core-i7-1255u-1-7ghz-nvidia-t500-16gb-ram-512gb-ssd.front.variety.1704545264648.jpg",
+      "processor": "Intel Core i7-1255U",
+      "gpu": "NVIDIA T500"
     },
     {
       "id": 29,
@@ -317,7 +373,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "240Hz",
       "price": 34449497,
-      "image_url": "https://images.versus.io/objects/hp-omen-17-ck2781ng-17-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4080-laptop-32gb-ram-1tb-ssd.front.variety.1712063744728.jpg"
+      "image_url": "https://images.versus.io/objects/hp-omen-17-ck2781ng-17-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4080-laptop-32gb-ram-1tb-ssd.front.variety.1712063744728.jpg",
+      "processor": "Intel Core i9-13900HX",
+      "gpu": "NVIDIA GeForce RTX 4080"
     },
     {
       "id": 30,
@@ -328,7 +386,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 32476739,
-      "image_url": "https://images.versus.io/objects/hp-elitebook-850-g7-15-6-intel-core-i7-10510u-1-8ghz-16gb-ram-512gb-ssd.front.variety.1611071611618.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elitebook-850-g7-15-6-intel-core-i7-10510u-1-8ghz-16gb-ram-512gb-ssd.front.variety.1611071611618.jpg",
+      "processor": "Intel Core i7-10510U",
+      "gpu": "Intel Iris Plus Graphics"
     },
     {
       "id": 31,
@@ -339,7 +399,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 32339196,
-      "image_url": "https://images.versus.io/objects/hp-elite-dragonfly-13-3-intel-core-i5-8365u-1-6ghz-16gb-ram-256gb-ssd.front.variety.1611160180521.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elite-dragonfly-13-3-intel-core-i5-8365u-1-6ghz-16gb-ram-256gb-ssd.front.variety.1611160180521.jpg",
+      "processor": "Intel Core i5-8365U",
+      "gpu": "Intel Iris Plus Graphics"
     },
     {
       "id": 32,
@@ -350,7 +412,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 32228380,
-      "image_url": "https://images.versus.io/objects/hp-elitebook-830-g7-13-3-intel-core-i5-10310u-1-7ghz-8gb-ram-256gb-ssd.front.variety.1611148621500.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elitebook-830-g7-13-3-intel-core-i5-10310u-1-7ghz-8gb-ram-256gb-ssd.front.variety.1611148621500.jpg",
+      "processor": "Intel Core i5-10310U",
+      "gpu": "Intel UHD Graphics"
     },
     {
       "id": 33,
@@ -361,7 +425,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "244Hz",
       "price": 28929857,
-      "image_url": "https://images.versus.io/objects/hp-pavilion-gaming-16-1-intel-core-i5-10300h-2-6ghz-8gb-ram-512gb-ssd.front.variety.1592591392539.jpg"
+      "image_url": "https://images.versus.io/objects/hp-pavilion-gaming-16-1-intel-core-i5-10300h-2-6ghz-8gb-ram-512gb-ssd.front.variety.1592591392539.jpg",
+      "processor": "Intel Core i5-10300H",
+      "gpu": "NVIDIA GeForce GTX 1650"
     },
     {
       "id": 34,
@@ -372,7 +438,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 26269190,
-      "image_url": "https://images.versus.io/objects/hp-pavilion-plus-14-eh1299nr-14-intel-core-i7-1355u-1-7ghz-nvidia-geforce-rtx-2050-laptop-16gb-ram-1tb-ssd.front.variety.1726664413320.jpg"
+      "image_url": "https://images.versus.io/objects/hp-pavilion-plus-14-eh1299nr-14-intel-core-i7-1355u-1-7ghz-nvidia-geforce-rtx-2050-laptop-16gb-ram-1tb-ssd.front.variety.1726664413320.jpg",
+      "processor": "Intel Core i7-1355U",
+      "gpu": "NVIDIA GeForce RTX 2050"
     },
     {
       "id": 35,
@@ -383,7 +451,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 25849527,
-      "image_url": "https://images.versus.io/objects/hp-elitebook-840-g7-14-intel-core-i5-10210u-1-6ghz-8gb-ram-256gb-ssd.front.variety.1611140067536.jpg"
+      "image_url": "https://images.versus.io/objects/hp-elitebook-840-g7-14-intel-core-i5-10210u-1-6ghz-8gb-ram-256gb-ssd.front.variety.1611140067536.jpg",
+      "processor": "Intel Core i5-10210U",
+      "gpu": "Intel UHD Graphics"
     },
     {
       "id": 36,
@@ -394,7 +464,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 25640525,
-      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g10-a-14-amd-ryzen-7-pro-7840hs-3-8ghz-32gb-ram-1tb-ssd.front.variety.1715000994495.jpg"
+      "image_url": "https://images.versus.io/objects/hp-zbook-firefly-g10-a-14-amd-ryzen-7-pro-7840hs-3-8ghz-32gb-ram-1tb-ssd.front.variety.1715000994495.jpg",
+      "processor": "AMD Ryzen 7 Pro 7840HS",
+      "gpu": "AMD Radeon 780M"
     },
     {
       "id": 37,
@@ -405,7 +477,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 22045506,
-      "image_url": "https://images.versus.io/objects/hp-victus-16-e0097nr-16-1-amd-ryzen-7-5800h-3-2ghz-nvidia-geforce-rtx-3050-ti-laptop-16gb-ram-512gb-ssd.front.variety.1643368239874.jpg"
+      "image_url": "https://images.versus.io/objects/hp-victus-16-e0097nr-16-1-amd-ryzen-7-5800h-3-2ghz-nvidia-geforce-rtx-3050-ti-laptop-16gb-ram-512gb-ssd.front.variety.1643368239874.jpg",
+      "processor": "AMD Ryzen 7 5800H",
+      "gpu": "NVIDIA GeForce RTX 3050 Ti"
     },
     {
       "id": 38,
@@ -416,7 +490,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 41845996,
-      "image_url": "https://images.versus.io/objects/dell-latitude-7410-14-intel-core-i5-10310u-1-7ghz-16gb-ram-512gb-ssd.front.variety.1601747253285.jpg"
+      "image_url": "https://images.versus.io/objects/dell-latitude-7410-14-intel-core-i5-10310u-1-7ghz-16gb-ram-512gb-ssd.front.variety.1601747253285.jpg",
+      "processor": "Intel Core i5-10310U",
+      "gpu": "Intel Iris Plus Graphics"
     },
     {
       "id": 39,
@@ -427,7 +503,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 39962401,
-      "image_url": "https://images.versus.io/objects/dell-xps-13-2021-intel-core-i7-1185g7-3ghz-16gb-ram-512gb-ssd.front.variety.1618846876389.jpg"
+      "image_url": "https://images.versus.io/objects/dell-xps-13-2021-intel-core-i7-1185g7-3ghz-16gb-ram-512gb-ssd.front.variety.1618846876389.jpg",
+      "processor": "Intel Core i7-1185G7",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 40,
@@ -438,7 +516,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 38368983,
-      "image_url": "https://images.versus.io/objects/dell-xps-17-9720-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3050-laptop-16gb-ram-512gb-ssd.front.variety.1649072269726.jpg"
+      "image_url": "https://images.versus.io/objects/dell-xps-17-9720-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3050-laptop-16gb-ram-512gb-ssd.front.variety.1649072269726.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 41,
@@ -449,7 +529,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 35879908,
-      "image_url": "https://images.versus.io/objects/dell-g16-7630-2023-16-qhd-plus-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4070-laptop-32gb-ram-1tb-ssd.front.variety.1706008088422.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g16-7630-2023-16-qhd-plus-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4070-laptop-32gb-ram-1tb-ssd.front.variety.1706008088422.jpg",
+      "processor": "Intel Core i9-13900HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 42,
@@ -460,7 +542,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 27265617,
-      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4060-laptop-32gb-ram-1tb-ssd.front.variety.1705161971609.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i9-13900hx-2-2ghz-nvidia-geforce-rtx-4060-laptop-32gb-ram-1tb-ssd.front.variety.1705161971609.jpg",
+      "processor": "Intel Core i9-13900HX",
+      "gpu": "Nvidia GeForce RTX 4060"
     },
     {
       "id": 43,
@@ -471,7 +555,9 @@
       "memory": "2TB SSD",
       "refresh_rate": "120Hz",
       "price": 26666679,
-      "image_url": "https://images.versus.io/objects/dell-g15-5520-15-6-fhd-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3060-laptop-32gb-ram-2tb-ssd.front.variety.1705590187497.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g15-5520-15-6-fhd-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3060-laptop-32gb-ram-2tb-ssd.front.variety.1705590187497.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 44,
@@ -482,7 +568,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "240Hz",
       "price": 21957890,
-      "image_url": "https://images.versus.io/objects/dell-g16-7630-2023-16-qhd-plus-intel-core-i7-13650hx-2-6ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-1tb-ssd.front.variety.1706010113406.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g16-7630-2023-16-qhd-plus-intel-core-i7-13650hx-2-6ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-1tb-ssd.front.variety.1706010113406.jpg",
+      "processor": "Intel Core i7-13650HX",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 45,
@@ -493,7 +581,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 21385198,
-      "image_url": "https://images.versus.io/objects/dell-latitude-7310-13-3-intel-core-i5-10310u-1-7ghz-16gb-ram-256gb-ssd.front.variety.1601299703899.jpg"
+      "image_url": "https://images.versus.io/objects/dell-latitude-7310-13-3-intel-core-i5-10310u-1-7ghz-16gb-ram-256gb-ssd.front.variety.1601299703899.jpg",
+      "processor": "Intel Core i5-10310U",
+      "gpu": "Intel UHD Graphics"
     },
     {
       "id": 46,
@@ -504,7 +594,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 20335727,
-      "image_url": "https://images.versus.io/objects/dell-g16-7620-16-qhd-plus-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3060-laptop-16gb-ram-1tb-ssd.front.variety.1706539596761.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g16-7620-16-qhd-plus-intel-core-i7-12700h-2-3ghz-nvidia-geforce-rtx-3060-laptop-16gb-ram-1tb-ssd.front.variety.1706539596761.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 47,
@@ -515,7 +607,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 20262078,
-      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i7-13650hx-2-6ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-1tb-ssd.front.variety.1705164062164.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i7-13650hx-2-6ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-1tb-ssd.front.variety.1705164062164.jpg",
+      "processor": "Intel Core i7-13650HX",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 48,
@@ -526,7 +620,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "120Hz",
       "price": 18060756,
-      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i5-13450hx-2-4ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-512gb-ssd.front.variety.1705163541115.jpg"
+      "image_url": "https://images.versus.io/objects/dell-g15-5530-2023-15-6-fhd-intel-core-i5-13450hx-2-4ghz-nvidia-geforce-rtx-4050-laptop-16gb-ram-512gb-ssd.front.variety.1705163541115.jpg",
+      "processor": "Intel Core i5-13450HX",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 49,
@@ -537,7 +633,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 17575533,
-      "image_url": "https://images.versus.io/objects/dell-inspiron-16-plus-7640-16-intel-core-ultra-7-155h-1-4ghz-16gb-ram-1tb-ssd.front.variety.1705679348139.jpg"
+      "image_url": "https://images.versus.io/objects/dell-inspiron-16-plus-7640-16-intel-core-ultra-7-155h-1-4ghz-16gb-ram-1tb-ssd.front.variety.1705679348139.jpg",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 50,
@@ -548,7 +646,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 16015271,
-      "image_url": "https://images.versus.io/objects/dell-inspiron-16-5625-16-amd-ryzen-7-5825u-2ghz-16gb-ram-512gb-ssd.front.variety.1655820939986.jpg"
+      "image_url": "https://images.versus.io/objects/dell-inspiron-16-5625-16-amd-ryzen-7-5825u-2ghz-16gb-ram-512gb-ssd.front.variety.1655820939986.jpg",
+      "processor": "AMD Ryzen 7 5825U",
+      "gpu": "AMD Radeon Vega 8 Graphics"
     },
     {
       "id": 51,
@@ -559,7 +659,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "60Hz",
       "price": 15507994,
-      "image_url": "https://images.versus.io/objects/dell-inspiron-15-3505-amd-ryzen-3-3250u-2-6ghz-8gb-ram-256gb-ssd.front.variety.1637308475233.jpg"
+      "image_url": "https://images.versus.io/objects/dell-inspiron-15-3505-amd-ryzen-3-3250u-2-6ghz-8gb-ram-256gb-ssd.front.variety.1637308475233.jpg",
+      "processor": "AMD Ryzen 3 3250U",
+      "gpu": "AMD Radeon R3 Graphics"
     },
     {
       "id": 52,
@@ -570,7 +672,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 13498225,
-      "image_url": "https://images.versus.io/objects/dell-inspiron-16-5620-16-intel-core-i7-1255u-1-7ghz-16gb-ram-1tb-ssd.front.variety.1655819969427.jpg"
+      "image_url": "https://images.versus.io/objects/dell-inspiron-16-5620-16-intel-core-i7-1255u-1-7ghz-16gb-ram-1tb-ssd.front.variety.1655819969427.jpg",
+      "processor": "Intel Core i7-1255U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 53,
@@ -581,7 +685,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "240Hz",
       "price": 38319343,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_1687168022dcd31d48f7adc8efddccee2aaf104062.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_1687168022dcd31d48f7adc8efddccee2aaf104062.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      "processor": "AMD Ryzen 9 7945HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 54,
@@ -592,7 +698,9 @@
       "memory": "2TB SSD",
       "refresh_rate": "60Hz",
       "price": 33886166,
-      "image_url": "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/Laptops/2023/PRESTIGE16AI/PRESTIGE16AIEVO-2-1024x1024.png"
+      "image_url": "https://asset-us-store.msi.com/image/cache/catalog/Pd_page/Laptops/2023/PRESTIGE16AI/PRESTIGE16AIEVO-2-1024x1024.png",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 55,
@@ -603,7 +711,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "144Hz",
       "price": 28243222,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_171141852326ffbaf4cce38bc214fddea786627365.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_171141852326ffbaf4cce38bc214fddea786627365.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      "processor": "AMD Ryzen 9 8945HS",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 56,
@@ -614,7 +724,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 21399782,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_1721286843758a61f1cac75187f93461bdc06cc3fe.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_1721286843758a61f1cac75187f93461bdc06cc3fe.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+      "processor": "Intel Core i7-13620H",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 57,
@@ -625,7 +737,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 25862405,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_170856912971d56dcf4c4f417192eed925df1bd6dd.png62405b38c58fe0f07fcef2367d8a9ba1/800.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_170856912971d56dcf4c4f417192eed925df1bd6dd.png62405b38c58fe0f07fcef2367d8a9ba1/800.png",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 58,
@@ -636,7 +750,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 38764711,
-      "image_url": "https://m.media-amazon.com/images/I/513xOeW99BL._AC_SL1024_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/513xOeW99BL._AC_SL1024_.jpg",
+      "processor": "Intel Core i7-1195G7",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 59,
@@ -647,7 +763,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 27348010,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_16195778762e1f0862c65e30349f7686f2af2b9f08.png62405b38c58fe0f07fcef2367d8a9ba1/800.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_16195778762e1f0862c65e30349f7686f2af2b9f08.png62405b38c58fe0f07fcef2367d8a9ba1/800.png",
+      "processor": "Intel Core i7-11800H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 60,
@@ -658,7 +776,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 24214612,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_163600344089c81a2349e9d1a2f0202ea6b59515c9.png62405b38c58fe0f07fcef2367d8a9ba1/800.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_163600344089c81a2349e9d1a2f0202ea6b59515c9.png62405b38c58fe0f07fcef2367d8a9ba1/800.png",
+      "processor": "Intel Core i7-11800H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 61,
@@ -669,7 +789,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 31032376,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_16276065657aa66b3e9fcac822e2ae4666dd549b79.png62405b38c58fe0f07fcef2367d8a9ba1/800.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_16276065657aa66b3e9fcac822e2ae4666dd549b79.png62405b38c58fe0f07fcef2367d8a9ba1/800.png",
+      "processor": "AMD Ryzen 7 5800H",
+      "gpu": "AMD Radeon RX 6600M"
     },
     {
       "id": 62,
@@ -680,7 +802,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "144Hz",
       "price": 28154524,
-      "image_url": "https://m.media-amazon.com/images/I/61CquanRD8L._AC_SL1500_.jpg"
+      "image_url": "https://m.media-amazon.com/images/I/61CquanRD8L._AC_SL1500_.jpg",
+      "processor": "Intel Core i7-11800H",
+      "gpu": "Nvidia RTX A2000"
     },
     {
       "id": 63,
@@ -691,7 +815,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 40981363,
-      "image_url": "https://asset.msi.com/resize/image/global/product/product_1645069524351d1cb24950cc981df55461cf1e9a76.png62405b38c58fe0f07fcef2367d8a9ba1/800.png"
+      "image_url": "https://asset.msi.com/resize/image/global/product/product_1645069524351d1cb24950cc981df55461cf1e9a76.png62405b38c58fe0f07fcef2367d8a9ba1/800.png",
+      "processor": "Intel Core i7-1185G7",
+      "gpu": "Nvidia GeForce RTX 2060 Max-Q"
     },
     {
       "id": 64,
@@ -702,7 +828,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 25299649,
-      "image_url": "https://media.pangoly.com/img/2/9/b/f/29bf0231-501f-43db-9d5e-80e30fae576d.jpg"
+      "image_url": "https://media.pangoly.com/img/2/9/b/f/29bf0231-501f-43db-9d5e-80e30fae576d.jpg",
+      "processor": "Intel Core i7-1195G7",
+      "gpu": "Nvidia GeForce GTX 1650"
     },
     {
       "id": 65,
@@ -713,7 +841,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 21367738,
-      "image_url": "https://dfestore.com/wp-content/uploads/2023/07/14250-1.png"
+      "image_url": "https://dfestore.com/wp-content/uploads/2023/07/14250-1.png",
+      "processor": "Intel Core I7-11800H",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 66,
@@ -724,7 +854,9 @@
       "memory": "256GB SSD",
       "refresh_rate": "120Hz",
       "price": 28295444,
-      "image_url": "https://www.adorama.com/images/Large/MSIGF659D251.jpg"
+      "image_url": "https://www.adorama.com/images/Large/MSIGF659D251.jpg",
+      "processor": "Intel Core i5-9300H",
+      "gpu": "NVIDIA GeForce GTX 1650"
     },
     {
       "id": 67,
@@ -735,7 +867,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 26141491,
-      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6440/6440556_sd.jpg"
+      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6440/6440556_sd.jpg",
+      "processor": "Intel Core i7-10750H",
+      "gpu": "Nvidia Quadro T1000"
     },
     {
       "id": 68,
@@ -746,7 +880,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 34392132,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/01/1-18-e1672919024436.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/01/1-18-e1672919024436.jpg",
+      "processor": "Intel Core i9-13980HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 69,
@@ -757,7 +893,9 @@
       "memory": "2TB SSD",
       "refresh_rate": "240Hz",
       "price": 38572813,
-      "image_url": "https://lmt-web.mstatic.lv/eshop/22807/Asus-ROG-Strix-G16-%282024%29-01.png"
+      "image_url": "https://lmt-web.mstatic.lv/eshop/22807/Asus-ROG-Strix-G16-%282024%29-01.png",
+      "processor": "Intel Core i9-14900HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 70,
@@ -768,7 +906,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 38917144,
-      "image_url": "https://cdn.cs.1worldsync.com/22/c2/22c2cd2e-b5b0-452b-9a3f-f524de45ef58.jpg"
+      "image_url": "https://cdn.cs.1worldsync.com/22/c2/22c2cd2e-b5b0-452b-9a3f-f524de45ef58.jpg",
+      "processor": "Intel Core i9-13900H",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 71,
@@ -779,7 +919,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 25620891,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2024/01/1-58-e1704893646606.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2024/01/1-58-e1704893646606.jpg",
+      "processor": "AMD Ryzen 9 7940HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 72,
@@ -790,7 +932,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 32627175,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/01/4-1-e1672785871868.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/01/4-1-e1672785871868.jpg",
+      "processor": "Intel Core i9-13900H",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 73,
@@ -801,7 +945,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 35595275,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2022/07/3-33-e1658836581855.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2022/07/3-33-e1658836581855.jpg",
+      "processor": "Intel Core i7-12700H",
+      "gpu": "NVIDIA GeForce RTX 4050"
     },
     {
       "id": 74,
@@ -812,7 +958,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "144Hz",
       "price": 24980306,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2021/01/1-46.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2021/01/1-46.jpg",
+      "processor": "AMD Ryzen 9 7940HS ",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 75,
@@ -823,7 +971,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "240Hz",
       "price": 22120439,
-      "image_url": "https://www.bhphotovideo.com/images/images2500x2500/asus_g614ji_xs96_16_rog_strix_gaming_1756850.jpg"
+      "image_url": "https://www.bhphotovideo.com/images/images2500x2500/asus_g614ji_xs96_16_rog_strix_gaming_1756850.jpg",
+      "processor": "Intel Core i7-13650HX",
+      "gpu": "Nvidia GeForce RTX 4060"
     },
     {
       "id": 76,
@@ -834,7 +984,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 28291483,
-      "image_url": "https://images.frandroid.com/wp-content/uploads/2024/09/asus-zenbook-s-14-ux5406-frandroid-2024.png"
+      "image_url": "https://images.frandroid.com/wp-content/uploads/2024/09/asus-zenbook-s-14-ux5406-frandroid-2024.png",
+      "processor": "Intel Core Ultra 7 258V",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 77,
@@ -845,7 +997,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 27520807,
-      "image_url": "https://stadt-bremerhaven.de/wp-content/uploads/2024/01/ZenBook-Duo-2024-1.jpg"
+      "image_url": "https://stadt-bremerhaven.de/wp-content/uploads/2024/01/ZenBook-Duo-2024-1.jpg",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 78,
@@ -856,7 +1010,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 29550384,
-      "image_url": "https://www.adorama.com/images/Large/ASN761ZMDB77.jpg"
+      "image_url": "https://www.adorama.com/images/Large/ASN761ZMDB77.jpg",
+      "processor": "Intel Core i7-12650H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 79,
@@ -867,7 +1023,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 34596140,
-      "image_url": "https://adntecnologyperu.com/wp-content/uploads/2022/08/ASUS-TUF-DASH-1.jpg"
+      "image_url": "https://adntecnologyperu.com/wp-content/uploads/2022/08/ASUS-TUF-DASH-1.jpg",
+      "processor": "Intel Core i7-12650H",
+      "gpu": "Nvidia GeForce RTX 3060"
     },
     {
       "id": 80,
@@ -878,7 +1036,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "120Hz",
       "price": 17875056,
-      "image_url": "https://images.frandroid.com/wp-content/uploads/2024/05/asus-vivobook-s-15-s5507-frandroid-2024.png"
+      "image_url": "https://images.frandroid.com/wp-content/uploads/2024/05/asus-vivobook-s-15-s5507-frandroid-2024.png",
+      "processor": "Qualcomm Snapdragon X Elite (X1E-78-100)",
+      "gpu": "Adreno"
     },
     {
       "id": 81,
@@ -889,7 +1049,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "90Hz",
       "price": 21052604,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2022/12/2-41-e1671667493773.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2022/12/2-41-e1671667493773.jpg",
+      "processor": "AMD Ryzen 7 6800H",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 82,
@@ -900,7 +1062,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "120Hz",
       "price": 18590578,
-      "image_url": "https://www.laptopspirit.fr/comparateur/images/fiches/3/G-30663-1-asus-zephyrus-g14-argent-1.jpg"
+      "image_url": "https://www.laptopspirit.fr/comparateur/images/fiches/3/G-30663-1-asus-zephyrus-g14-argent-1.jpg",
+      "processor": "AMD Ryzen 7 4800HS",
+      "gpu": "NVIDIA GeForce GTX 1650"
     },
     {
       "id": 83,
@@ -911,7 +1075,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 43190409,
-      "image_url": "https://lapvip.vn/upload/products/original/lenovo-legion-pro-5-16irx8-2023-lapvip-6-1689155571.jpg"
+      "image_url": "https://lapvip.vn/upload/products/original/lenovo-legion-pro-5-16irx8-2023-lapvip-6-1689155571.jpg",
+      "processor": "AMD Ryzen 7 7745HX",
+      "gpu": "Nvidia GeForce RTX 4070"
     },
     {
       "id": 84,
@@ -922,7 +1088,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 33018941,
-      "image_url": "https://kiyas.la/storage/images/products/24896/original/lenovo-legion-5-pro-gen-14-2024-16-intel-core-i7-14650hx-2-2ghz-nvidia-geforce-rtx-4060-laptop-32gb-ram-1tb-ssd-1tb-ssd.jpg"
+      "image_url": "https://kiyas.la/storage/images/products/24896/original/lenovo-legion-5-pro-gen-14-2024-16-intel-core-i7-14650hx-2-2ghz-nvidia-geforce-rtx-4060-laptop-32gb-ram-1tb-ssd-1tb-ssd.jpg",
+      "processor": "Intel Core i5-14500HX",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 85,
@@ -933,7 +1101,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 33318848,
-      "image_url": "https://s13emagst.akamaized.net/products/47862/47861343/images/res_d145b134cc557c464eb7d4ce127d2603.jpg"
+      "image_url": "https://s13emagst.akamaized.net/products/47862/47861343/images/res_d145b134cc557c464eb7d4ce127d2603.jpg",
+      "processor": "AMD Ryzen 9 6900HX",
+      "gpu": "Nvidia GeForce RTX 3070 Ti"
     },
     {
       "id": 86,
@@ -944,7 +1114,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 40266173,
-      "image_url": "https://laptoping.com/specs/wp-content/uploads/2021/04/Lenovo-ThinkPad-X1-Yoga-Gen-6.jpg"
+      "image_url": "https://laptoping.com/specs/wp-content/uploads/2021/04/Lenovo-ThinkPad-X1-Yoga-Gen-6.jpg",
+      "processor": "Intel Core i7-1185G7",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 87,
@@ -955,7 +1127,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 39810445,
-      "image_url": "https://www.yangcanggih.com/wp-content/uploads/2020/09/Lenovo-ThinkPad-x1-Nano-1.jpg"
+      "image_url": "https://www.yangcanggih.com/wp-content/uploads/2020/09/Lenovo-ThinkPad-x1-Nano-1.jpg",
+      "processor": "Intel Core i7-1260P",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 88,
@@ -966,7 +1140,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 38852156,
-      "image_url": "https://notebooks.com/wp-content/uploads/2012/05/thinkpad-x1-carbon-review-2.jpg"
+      "image_url": "https://notebooks.com/wp-content/uploads/2012/05/thinkpad-x1-carbon-review-2.jpg",
+      "processor": "Intel Core Ultra 5 135U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 89,
@@ -977,7 +1153,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "60Hz",
       "price": 25810619,
-      "image_url": "https://notebooks.com/wp-content/uploads/2012/05/thinkpad-x1-carbon-review-2.jpg"
+      "image_url": "https://notebooks.com/wp-content/uploads/2012/05/thinkpad-x1-carbon-review-2.jpg",
+      "processor": "Intel Core Ultra 5 125U",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 90,
@@ -988,7 +1166,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "144Hz",
       "price": 20180059,
-      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6548/6548030_sd.jpg"
+      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6548/6548030_sd.jpg",
+      "processor": "Intel Core i7-13620H",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 91,
@@ -999,7 +1179,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "165Hz",
       "price": 39881965,
-      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/03/Legion_Pro_5_16IRX8_CT1_05-e1678968963750.jpg"
+      "image_url": "https://laptopmedia.com/wp-content/uploads/2023/03/Legion_Pro_5_16IRX8_CT1_05-e1678968963750.jpg",
+      "processor": "Intel Core i7-11800H",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 92,
@@ -1010,7 +1192,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "120Hz",
       "price": 16059538,
-      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6512/6512557_sd.jpg"
+      "image_url": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6512/6512557_sd.jpg",
+      "processor": "AMD Ryzen 7 7735HS",
+      "gpu": "Nvidia GeForce RTX 4050"
     },
     {
       "id": 93,
@@ -1021,7 +1205,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 24694351,
-      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/Lenovo/ThinkBook_14-IML-20RV006TGE/ThinkBook_14_8.jpg"
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/Lenovo/ThinkBook_14-IML-20RV006TGE/ThinkBook_14_8.jpg",
+      "processor": "Intel Core Ultra 7 155H",
+      "gpu": "Intel Iris Xe Graphics"
     },
     {
       "id": 94,
@@ -1032,7 +1218,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "165Hz",
       "price": 44820153,
-      "image_url": "https://cdn.myshopmatic.com/images/VRLKKP/N1VgKjkvw8.jpg"
+      "image_url": "https://cdn.myshopmatic.com/images/VRLKKP/N1VgKjkvw8.jpg",
+      "processor": "AMD Ryzen 7 5800H",
+      "gpu": "Nvidia GeForce RTX 3050 Ti"
     },
     {
       "id": 95,
@@ -1043,7 +1231,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "144Hz",
       "price": 21327294,
-      "image_url": "https://s13emagst.akamaized.net/products/53811/53810677/images/res_89c819f8c961dbe5cd81939f3414ce22.jpg"
+      "image_url": "https://s13emagst.akamaized.net/products/53811/53810677/images/res_89c819f8c961dbe5cd81939f3414ce22.jpg",
+      "processor": "Intel Core i5-13420H",
+      "gpu": "Nvidia GeForce RTX 3050"
     },
     {
       "id": 96,
@@ -1054,7 +1244,9 @@
       "memory": "512GB SSD",
       "refresh_rate": "165Hz",
       "price": 10856836,
-      "image_url": "https://lidernotebooks.com.ar/wp-content/uploads/2023/04/Lenovo-IdeaPad-Gaming-3-15ACH6-Ryzen-5-82K201XCUS_0000_Capa-1.jpg"
+      "image_url": "https://lidernotebooks.com.ar/wp-content/uploads/2023/04/Lenovo-IdeaPad-Gaming-3-15ACH6-Ryzen-5-82K201XCUS_0000_Capa-1.jpg",
+      "processor": "AMD Ryzen 5 5500H",
+      "gpu": "Nvidia GeForce RTX 2050"
     },
     {
       "id": 97,
@@ -1065,7 +1257,9 @@
       "memory": "1TB SSD",
       "refresh_rate": "60Hz",
       "price": 14188925,
-      "image_url": "https://s13emagst.akamaized.net/products/54444/54443403/images/res_e935a860d766c044c7d4fb2702c8909d.jpg"
+      "image_url": "https://s13emagst.akamaized.net/products/54444/54443403/images/res_e935a860d766c044c7d4fb2702c8909d.jpg",
+      "processor": "AMD Ryzen 5 5625U",
+      "gpu": "AMD Radeon Vega 7 Graphics"
     }
   ]
 }
