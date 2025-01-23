@@ -18,7 +18,9 @@ const LaptopModel = {
                 memory: data?.memory || null,
                 refresh_rate: data?.refresh_rate || null,
                 price: data?.price || null,
-                image_url: data?.image_url || null
+                image_url: data?.image_url || null,
+                processor: data?.processor || null,
+                gpu: data?.gpu || null
             }
 
             return {
