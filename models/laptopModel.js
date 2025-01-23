@@ -44,7 +44,7 @@ const LaptopModel = {
 
     async importLaptops(laptops){
         for (const [index, item] of laptops.entries()) {
-            const id = item.id ? Number(item.id) : `laptop-${index + 1}`;
+            const id = item.id ? String(item.id) : `laptop-${index + 1}`;
             console.log(`Assigning ID: ${id} for laptop`, item);
         
             const docRef = db.collection('laptops').doc(id);
