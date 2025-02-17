@@ -8,8 +8,10 @@ const LaptopModel = {
         return snapshot.docs.map((doc) => {
             const data = doc.data()
 
+            const laptopId = parseInt(data?.id);
+
             const laptops = {
-                id: data?.id || null,
+                id: laptopId || null,
                 brand: data?.brand || null,
                 model_name: data?.model_name || null,
                 ram: data?.ram || null,

@@ -1,10 +1,24 @@
 const LaptopModel = require("../models/laptopModel");
 const jsonData = require("../data-laptop.json");
+const NodeCache = require("node-cache");
+const myCache = new NodeCache();
 
 const LaptopController = {
   async getLaptop(req, res) {
     try {
       const { brands, minPrice, maxPrice, sortByPrice } = req.query;
+      const cacheKey = `laptops:${brands}:${minPrice}:${maxPrice}:${sortByPrice}`;
+      const cachedLaptops = myCache.get(cacheKey);
+
+      if (cachedLaptops) {
+        console.log("Data diambil dari cache");
+        return res.status(200).json({
+          laptop: cachedLaptops,
+        });
+      } else {
+        console.log("Data diambil dari database");
+      }
+
       const laptops = await LaptopModel.getAllLaptop();
 
       let laptop = laptops;
@@ -31,13 +45,12 @@ const LaptopController = {
 
       if (laptops.length === 0) {
         return res.status(404).json({
-          message: "Gaada datanya",
+          message: "data tidak ditemukan",
         });
       }
 
-      res.status(200).json({
-        laptop,
-      });
+      myCache.set(cacheKey, laptops, 3600);
+      res.status(200).json({ laptop: laptops });
     } catch (error) {
       console.error("Error Fetching Laptops : ", error);
       res.status(500).json({
@@ -50,7 +63,7 @@ const LaptopController = {
   async deleteLaptop(req, res) {
     try {
       const { id } = req.params;
-      console.log(`Menerima request delete untuk ID: ${id}`); // Tambahkan ini
+      console.log(`Menerima request delete untuk ID: ${id}`);
 
       if (!id) {
         return res.status(400).json({ message: "ID harus disertakan" });
@@ -59,12 +72,11 @@ const LaptopController = {
       const success = await LaptopModel.deleteLaptop(id);
 
       if (success) {
-        console.log(`Laptop dengan ID: ${id} berhasil dihapus`);
+        myCache.del(`laptop:${id}`);
         res
           .status(200)
           .json({ message: `Laptop dengan ID: ${id} berhasil dihapus` });
       } else {
-        console.log(`Laptop dengan ID: ${id} tidak ditemukan`);
         res
           .status(404)
           .json({ message: `Laptop dengan ID: ${id} tidak ditemukan` });
@@ -105,6 +117,11 @@ const LaptopController = {
   async getLaptopById(req, res) {
     try {
       const { id } = req.params;
+      const cachedLaptop = myCache.get(`laptop:${id}`);
+
+      if (cachedLaptop) {
+        return res.status(200).json({ laptops: cachedLaptop });
+      }
 
       if (!id) {
         return res.status(400).json({
@@ -113,9 +130,12 @@ const LaptopController = {
       }
       const laptopDetail = await LaptopModel.getLaptopById(id);
 
-      res.status(200).json({
-        laptops: laptopDetail,
-      });
+      if (!laptopDetail) {
+        return res.status(404).json({ message: "Laptop tidak ditemukan" });
+      }
+
+      myCache.set(`laptop:${id}`, laptopDetail, 3600);
+      res.status(200).json({ laptops: laptopDetail });
     } catch (error) {
       console.error("Gagal mengambil laptop by id : ", error);
       res.status(404).json({

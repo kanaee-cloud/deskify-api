@@ -15,8 +15,9 @@ const PackageModel = {
     return snapshot.docs.map((doc) => {
       const data = doc.data();
 
+      const packageId = parseInt(doc.id);
+
       const components = {
-        laptop: data.components?.laptop || null,
         monitor: data.components?.monitor || {},
         keyboard: data.components?.keyboard || null,
         mouse: data.components?.mouse || null,
@@ -25,7 +26,7 @@ const PackageModel = {
       };
 
       return {
-        id: doc.id,
+        id: packageId,
         ...data,
         components,
       };

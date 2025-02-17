@@ -1,5 +1,7 @@
 const PackageModel = require("../models/packageModel");
 const jsonData = require("../product-package.json");
+const NodeCache = require("node-cache");
+const myCache = new NodeCache();
 
 const PackageController = {
   async getPackages(req, res) {
@@ -7,6 +9,15 @@ const PackageController = {
       const { page = 1 } = req.query;
       const limit = 4;
       const offset = (page - 1) * limit;
+      const cacheKey = `packages:${page}`;
+      const cachedPackages = myCache.get(cacheKey);
+
+      if (cachedPackages) {
+        console.log("data diambil dari cache");
+        return res.status(200).json(cachedPackages); // Kembalikan data dari cache
+      } else {
+        console.log("data diambil dari database");
+      }
 
       const packages = await PackageModel.getAllPackages(limit, offset);
       if (packages.length === 0) {
@@ -15,15 +26,19 @@ const PackageController = {
         });
       }
 
-      res.status(200).json({
+      const response = {
         page: Number(page),
         total: packages.length,
         packages,
-      });
+      };
+
+      myCache.set(cacheKey, response, 3600);
+      res.status(200).json(response);
+
     } catch (error) {
-      console.error("gagal ambil package cuk : ", error);
+      console.error("Gagal mengambil package : ", error);
       res.status(500).json({
-        message: "error cuk",
+        message: "Error mengambil data",
         error: error.message,
       });
     }
@@ -32,6 +47,15 @@ const PackageController = {
   async getPackageById(req, res) {
     try {
       const { id } = req.params;
+      const cacheKey = `package:${id}`;
+      const cachedPackage = myCache.get(cacheKey);
+
+      if (cachedPackage) {
+        console.log("data diambil dari cache");
+        return res.status(200).json({ package: cachedPackage });
+      } else {
+        console.log("data diambil dari database");
+      }
 
       if (!id) {
         return res.status(400).json({
@@ -40,9 +64,14 @@ const PackageController = {
       }
       const packageDetail = await PackageModel.getPackageById(id);
 
-      res.status(200).json({
-        package: packageDetail,
-      });
+      if(!packageDetail){
+        return res.status(404).json({message: "Package tidak ditemukan"});
+      }
+
+      myCache.set(cacheKey, packageDetail, 3600);
+      res.status(200).json({ package: packageDetail });
+
+      
     } catch (error) {
       console.error("Gagal mengambil package by id : ", error);
       res.status(404).json({
