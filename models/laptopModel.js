@@ -1,4 +1,3 @@
-const { getLaptopById } = require('../controllers/laptopControllers')
 const db = require('../firebase')
 
 const LaptopModel = {
@@ -29,6 +28,24 @@ const LaptopModel = {
         })
     },
 
+    async deleteLaptop(id) {
+        try {
+          const docRef = db.collection("laptops").doc(id);
+          const doc = await docRef.get();
+    
+          if (!doc.exists) {
+            throw new Error(`Laptop with id: ${id} not found`);
+          }
+    
+          await docRef.delete();
+          return true;
+        } catch (error) {
+          throw error;
+        }
+      },
+
+      
+
     async getLaptopById(id){
         const docRef = db.collection('laptops').doc(id)
         const doc = await docRef.get()
@@ -43,6 +60,36 @@ const LaptopModel = {
             ...data
         }
     },
+
+    async createLaptop(laptopData) {
+        try {
+            const docRef = db.collection('laptops').doc(); // Biarkan Firebase yang generate ID
+            const id = docRef.id;
+    
+            const laptop = {
+                id,
+                brand: laptopData.brand || null,
+                model_name: laptopData.model_name || null,
+                ram: laptopData.ram || null,
+                display: laptopData.display || null,
+                memory: laptopData.memory || null,
+                refresh_rate: laptopData.refresh_rate || null,
+                price: laptopData.price || null,
+                image_url: laptopData.image_url || null,
+                processor: laptopData.processor || null,
+                gpu: laptopData.gpu || null
+            };
+    
+            await docRef.set(laptop);
+            return laptop;
+        } catch (error) {
+            throw error;
+        }
+    }
+    ,
+    
+
+
 
     async importLaptops(laptops){
         for (const [index, item] of laptops.entries()) {

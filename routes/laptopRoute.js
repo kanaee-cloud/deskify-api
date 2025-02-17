@@ -109,6 +109,8 @@ const LaptopController = require('../controllers/laptopControllers');
 
 router.get('/', LaptopController.getLaptop);
 router.get('/:id', LaptopController.getLaptopById);
+router.delete('/:id', LaptopController.deleteLaptop);
+router.post('/', LaptopController.createLaptop);
 router.post('/import', LaptopController.importLaptops);
 
 module.exports = router;

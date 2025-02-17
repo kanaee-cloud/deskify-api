@@ -6,53 +6,6 @@
       "description": "A no-frills, cost-effective package for basic needs.",
       "price_range": "Rp 6,000,000 - Rp 8,000,000",
       "components": {
-        "laptop": {
-          "id": "L01",
-          "model_name": "ASUS Vivobook Go 15 OLED E1504FA",
-          "year": 2023,
-          "model_number": "A314",
-          "price": 7299000,
-          "link_tokopedia": "https://tokopedia.link/l51E1QafGOb",
-          "image_url": {
-            "front": "https://dlcdnwebimgs.asus.com/gain/da28e005-0d30-474a-aa12-1eb2e482b922/w800",
-            "back": "https://dlcdnwebimgs.asus.com/gain/1442e785-7d0a-4004-894c-9c921f6a0caa/w800"
-          },
-          "specifications": {
-            "processor": {
-              "brand": "AMD",
-              "model": "Ryzen™ 3 7320U Processor 2.4GHz"
-            },
-            "gpu": {
-              "brand": "AMD",
-              "model": "Radeon™ Graphics",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "8GB",
-              "type": "LPDDR5"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "15.6-inch",
-              "resolution": "1366x768",
-              "refresh_rate": "60Hz"
-            },
-            "battery": {
-              "size": "50WH"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "1x USB 2.0 Type-A, 1x USB 3.2 Gen 1 Type-A, 1x USB 3.2 Gen 1 Type-C",
-              "hdmi": "1x HDMI 1.4",
-              "audio_jack": "1x 3.5mm Combo Audio Jack",
-              "dc_in": "1x DC-in",
-              "other": "1x Card Reader"
-            }
-          }
-        },
         "monitor": {
           "monitor_1": null,
           "monitor_2": null
@@ -82,6 +35,7 @@
           "size": "35x25x0,4 cm"
         },
         "others": {
+          "is_others" : false,
           "bracket": null,
           "game_pad": null,
           "streamdeck": null,
@@ -97,53 +51,6 @@
       "description": "Perfect for productivity and office work.",
       "price_range": "Rp 7,000,000 - Rp 8,000,000",
       "components": {
-        "laptop": {
-          "id": "L02",
-          "model_name": "Lenovo IdeaPad Slim 3",
-          "year": 2022,
-          "model_number": "82RJ00FMID",
-          "price": 6899000,
-          "image_url": {
-            "front": "https://p4-ofp.static.pub//fes/cms/2024/09/13/spzmghk7e1tv951ptfc3rnxk53xc92310131.png",
-            "back": "https://p1-ofp.static.pub//fes/cms/2024/09/13/02ywqmbiro1hwv3t1v0e5cfpgu74j4300687.png"
-          },
-          "link_tokopedia": "https://tokopedia.link/27zwzzuVGOb",
-          "specifications": {
-            "processor": {
-              "brand": "Intel",
-              "model": "Core i3-1215U"
-            },
-            "gpu": {
-              "brand": "Intel",
-              "model": "UHD Graphics",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "16GB",
-              "type": "DDR4"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "14-inch",
-              "resolution": "1920x1080",
-              "refresh_rate": "60Hz"
-            },
-            "battery": {
-              "size": "38Wh"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "1x USB 2.0, 1x USB 3.2 Gen 1, 1x USB-C® 3.2 Gen 1 (support data transfer, Power Delivery and DisplayPort™ 1.2)",
-              "hdmi": "1x HDMI® 1.4b",
-              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
-              "dc_in": "1x Power Connector",
-              "other": "1x Card Reader"
-            }
-          }
-        },
         "monitor": {
           "monitor_1" : null,
           "monitor_2" : null
@@ -186,6 +93,7 @@
           "size": "290MM - 225MM - 4MM"
         },
         "others": {
+          "is_others": false,
           "bracket": null,
           "game_pad": null,
           "streamdeck": null,
@@ -201,53 +109,6 @@
       "description": "Good for newbie streamer.",
       "price_range": "Rp 8,000,000 - Rp 10,000,000",
       "components": {
-        "laptop": {
-          "id": "L03",
-          "model_name": "MSI Modern 14",
-          "year": 2022,
-          "model_number": "C12MO-817ID",
-          "price": 7799000,
-          "image_url": {
-            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/9/16/a0848510-cce8-4356-8903-c20da14872df.png",
-            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/9/16/a710cfa7-fec7-4bdd-b09e-fa836040a55a.png"
-          },
-          "link_tokopedia": "https://tokopedia.link/3rxqM9kbHOb",
-          "specifications": {
-            "processor": {
-              "brand": "Intel",
-              "model": "Core i5-1235U"
-            },
-            "gpu": {
-              "brand": "Intel",
-              "model": "Iris Xe Graphics",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "8GB",
-              "type": "DDR4"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "14-inch",
-              "resolution": "1920x1080",
-              "refresh_rate": "60Hz"
-            },
-            "battery": {
-              "size": "39.3 Wh"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "1x Type-C USB3.2 Gen2 with PD charging, 1x Type-A USB3.2 Gen2, 2x Type-A USB2.0",
-              "hdmi": "1x (4K @ 30Hz) HDMI",
-              "audio_jack": "-",
-              "dc_in": "-",
-              "other": "1x Micro SD Card Reader"
-            }
-          }
-        },
         "monitor": {
           "monitor_1" : {
             "id": "M05",
@@ -304,6 +165,7 @@
           "size": " 70 x 35cm"
         },
         "others": {
+          "is_others": true,
           "bracket": {
             "id" : "B00",
             "model_name" : "ORICO Laptop Stand PFB-A23",
@@ -327,53 +189,6 @@
       "description": "Stream 24/7 ez going.",
       "price_range": "Rp 10,000,000 - Rp 14,000,000",
       "components": {
-        "laptop": {
-          "id": "L04",
-          "model_name": "Lenovo LOQ 15IAX9",
-          "year": 2024,
-          "model_number": "C12MO-817ID",
-          "price": 10649000,
-          "image_url": {
-            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/12/f29ff668-a567-477d-baa4-ddb9454d522b.jpg",
-            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/3/12/aa8c1ade-1234-42ed-955e-deed1cae45bc.jpg"
-          },
-          "link_tokopedia": "https://tokopedia.link/Rl4GuPOMHOb",
-          "specifications": {
-            "processor": {
-              "brand": "Intel",
-              "model": "Core  i5-12450HX"
-            },
-            "gpu": {
-              "brand": "NVIDIA®",
-              "model": "GeForce RTX™ 2050",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "12GB up to 32GB",
-              "type": "DDR4"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "15.6-inch",
-              "resolution": "1920x1080",
-              "refresh_rate": "144Hz"
-            },
-            "battery": {
-              "size": "60Wh"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with PD 140W and DisplayPort™ 1.4",
-              "hdmi": "1x HDMI® 2.1, up to 8K/60Hz",
-              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
-              "dc_in": "1x Power connector",
-              "other": "1x Ethernet (RJ-45)"
-            }
-          }
-        },
         "monitor": {
           "monitor_1" : {
             "id": "M06",
@@ -429,6 +244,7 @@
           "size": "40x90x4mm"
         },
         "others": {
+          "is_others": true,
           "bracket": {
             "id" : "B01",
             "model_name" : "Colta Dual Fan Cooler Laptop Stand Holder Aluminium",
@@ -463,53 +279,6 @@
       "description": "Semi Gamer Chill",
       "price_range": "Rp 17,000,000 - Rp 20,000,000",
       "components": {
-        "laptop": {
-          "id": "L05",
-          "model_name": "Lenovo LOQ 15ARP9",
-          "year": 2023,
-          "model_number": "83JC001YID",
-          "price": 16299000,
-          "image_url": {
-            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/1/40eb83de-d350-4b65-9fb8-064c2c754ec4.jpg",
-            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/6/1/69c82b54-77b9-4df3-a162-f788136d70f2.jpg"
-          },
-          "link_tokopedia": "https://www.tokopedia.com/distrilapid/lenovo-loq-15arp9-ryzen-7-7435hs-rtx-4060-12gb-512gb-ssd-144hz-12gb-96ddb?extParam=ivf%3Dtrue&src=topads",
-          "specifications": {
-            "processor": {
-              "brand": "AMD",
-              "model": "Ryzen™ 7 7435HS"
-            },
-            "gpu": {
-              "brand": "NVIDIA®",
-              "model": "GeForce RTX™ 4060",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "12GB",
-              "type": "SO-DIMM DDR5-4800"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "15.6-inch FHD",
-              "resolution": "1920x1080",
-              "refresh_rate": "144Hz"
-            },
-            "battery": {
-              "size": "60Wh"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "3x USB-A (USB 5Gbps / USB 3.2 Gen 1), 1x USB-C® (USB 10Gbps / USB 3.2 Gen 2), with Lenovo® PD 140W and DisplayPort™ 1.4",
-              "hdmi": "1x HDMI® 2.1, up to 8K/60Hz",
-              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
-              "dc_in": "1x Power Connector",
-              "other": "1x RJ45"
-            }
-          }
-        },
         "monitor": {
           "monitor_1": {
             "id": "M05",
@@ -533,7 +302,7 @@
           "model_number": "F75",
           "price": 850000,
           "link_tokopedia": "https://www.tokopedia.com/thockysupply/aula-f75-mechanical-keyboard-wireless-three-mod-full-build-glacier-blue-cf3cf?extParam=ivf%3Dfalse%26keyword%3Daula+f75%26search_id%3D20241120142118199D2BC28887040B5NVQ%26src%3Dsearch",
-          "image_url": "",
+          "image_url": "https://m.media-amazon.com/images/I/61jfaUCa3wL.jpg",
           "specifications": {
             "type": "Wireless",
             "layout": "75%",
@@ -546,7 +315,7 @@
           "model_name": "Vortex series ONI R1",
           "model_number": "X1",
           "price": 339000,
-          "image_url": "",
+          "image_url": "https://down-id.img.susercontent.com/file/id-11134207-7r98r-lwgv3sfaq5fhb7",
           "link_tokopedia": "https://www.tokopedia.com/chemicygaming/vortex-series-oni-r1-lightweight-triple-mode-wireless-gaming-mouse-merah-16ad8?extParam=ivf%3Dfalse&src=topads",
           "specifications": {
             "type": "Wireless",
@@ -561,10 +330,11 @@
           "model_number": "90565",
           "price": 36000,
           "link_tokopedia": "https://tokopedia.link/FUNYTkeeGOb",
-          "image_url": "",
+          "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGIFhqYBX6Ft7L5V0rnEd8BzT0hMiTeI198g&s",
           "size": "290MM - 225MM - 4MM"
         },
         "others": {
+          "is_others": true,
           "game_pad": {
             "id" : "GP01",
             "model_name" : "Fantech WGP13S",
@@ -599,53 +369,6 @@
       "description": "Nonstop Drive",
       "price_range": "Rp 25,000,000",
       "components": {
-        "laptop": {
-          "id": "L06",
-          "model_name": "HP VICTUS 16 S1221AX",
-          "year": 2021,
-          "model_number": "S1221AX",
-          "price": 19560400,
-          "image_url": {
-            "front": "https://www.softcom.co.id/wp-content/uploads/2024/03/15-FA1094TX-2.jpg",
-            "back": "https://www.softcom.co.id/wp-content/uploads/2022/06/HP-Victus-15-4.jpg"
-          },
-          "link_tokopedia": "https://www.tokopedia.com/agreshpauthorized/laptop-hp-victus-16-s1221ax-ryzen-7-8845hs-rtx4060-8gb-16gb-1tb-w11-ohs-16-1fhd-165hz-rgb-2y-adp-harga-terbaik-up-32gb-1tb-ssd-97a01",
-          "specifications": {
-            "processor": {
-              "brand": "AMD",
-              "model": "Ryzen™ 7 8845HS"
-            },
-            "gpu": {
-              "brand": "NVIDIA®",
-              "model": "GeForce RTX™ 4060",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "16GB",
-              "type": "DDR5-5600"
-            },
-            "memory": {
-              "size": "512GB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "16.1-inch FHD",
-              "resolution": "1920x1080",
-              "refresh_rate": "165Hz"
-            },
-            "battery": {
-              "size": "83Wh"
-            },
-            "os": "Windows 11 Home",
-            "ports": {
-              "usb": "1 USB Type-A 5Gbps signaling rate, Type-A 5Gbps signaling rate (HP Sleep and Charge), Type-C® 5Gbps signaling rate (DisplayPort™ 1.4, HP Sleep and Charge)",
-              "hdmi": "1 HDMI 2.1",
-              "audio_jack": "1x Headphone / microphone combo jack (3.5mm)",
-              "dc_in": "1x Power Connector",
-              "other": "1x RJ45, 1 AC smart pin"
-            }
-          }
-        },
         "monitor": {
           "monitor_1": {
             "id": "M06",
@@ -704,6 +427,7 @@
           "size": "900x400x4mm"
         },
         "others": {
+          "is_others": true,
           "game_pad": {
             "id" : "GP02",
             "model_name" : "Fantech NOVA WGP14",
@@ -730,53 +454,6 @@
       "description": "Power Never Die",
       "price_range": "Rp 30,000,000 - Rp 35,000,000",
       "components": {
-        "laptop": {
-          "id": "L07",
-          "model_name": "Apple Macbook PRO M3 2023",
-          "year": 2023,
-          "model_number": "81VT0096US",
-          "price": 26029998,
-          "image_url": {
-            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/8/27/7bc1e2ee-65b8-4ce6-b19e-baba2b15a298.png",
-            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2023/11/1/6988add5-fa04-401e-8114-767194ee3043.jpg"
-          },
-          "link_tokopedia": "https://www.tokopedia.com/onestopgaming/apple-macbook-pro-m3-2023-14-inch-ram-8gb-512gb-1tb-ssd-grey-apple-8gb-1tb-25cd1",
-          "specifications": {
-            "processor": {
-              "brand": "Apple",
-              "model": "M3"
-            },
-            "gpu": {
-              "brand": "Apple",
-              "model": "M3",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "8GB",
-              "type": "Unified Memory"
-            },
-            "memory": {
-              "size": "1TB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "14-inch FHD",
-              "resolution": "1920x1080",
-              "refresh_rate": "165Hz"
-            },
-            "battery": {
-              "size": "70kwh"
-            },
-            "os": "MacOS",
-            "ports": {
-              "usb": "Two Thunderbolt / USB 4 ports",
-              "hdmi": "HDMI port",
-              "audio_jack": "MagSafe 3 3.5mm headphone jack",
-              "dc_in": "-",
-              "other": "SDXC card slot"
-            }
-          }
-        },
         "monitor": {
           "monitor_1": {
             "id": "M07",
@@ -832,6 +509,7 @@
           "size": "300 mm x 700 mm x 2 mm"
         },
         "others": {
+          "is_others": true,
           "game_pad": null,
           "bracket": {
             "id" : "B02",
@@ -855,53 +533,6 @@
       "description": "Luxury style",
       "price_range": "Rp 35,000,000 - Rp 40,000,000",
       "components": {
-        "laptop": {
-          "id": "L08",
-          "model_name": "Apple Macbook PRO M4",
-          "year": 2023,
-          "model_number": "RZ09-0483NED3",
-          "price": 30489000,
-          "image_url": {
-            "front": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/11/1/4fa34750-accc-442a-9450-faf38cafb64a.jpg",
-            "back": "https://images.tokopedia.net/img/cache/900/VqbcmM/2024/11/1/55dd4bf9-d6d3-48e1-b9ce-a4bb5df84e2a.jpg"
-          },
-          "link_tokopedia": "https://www.tokopedia.com/prostorecomputer/razer-blade-16-rtx4080-i9-13950hx-32gb-1tbssd-w11-16-0qhd-240hz-pkrgb-tgp175-rtx4070-16-1t-laptop-213d5?extParam=ivf%3Dfalse%26keyword%3Drazer+blade+16%26search_id%3D20241120232305356B2CDF6F49AD16B0SF%26src%3Dsearch&refined=true",
-          "specifications": {
-            "processor": {
-              "brand": "Apple",
-              "model": "10-core"
-            },
-            "gpu": {
-              "brand": "Apple",
-              "model": "10-core",
-              "size": "Integrated"
-            },
-            "ram": {
-              "size": "16GB up to 24GB",
-              "type": "Unified Memory"
-            },
-            "memory": {
-              "size": "256GB up to 1TB",
-              "type": "SSD"
-            },
-            "display": {
-              "size": "14-inch FHD",
-              "resolution": "1920x1080",
-              "refresh_rate": "120Hz"
-            },
-            "battery": {
-              "size": "70kwh"
-            },
-            "os": "MacOS",
-            "ports": {
-              "usb": "Thunderbolt 5 ports",
-              "hdmi": "HDMI port",
-              "audio_jack": "MagSafe 3 3.5mm headphone jack",
-              "dc_in": "-",
-              "other": "SDXC card slot"
-            }
-          }
-        },
         "monitor": {
           "monitor_1": {
             "id": "M08",
@@ -970,6 +601,7 @@
           "size": "900 x 400 x 4 mm"
         },
         "others": {
+          "is_others": true,
           "game_pad": null,
           "bracket": {
             "id" : "B02",
