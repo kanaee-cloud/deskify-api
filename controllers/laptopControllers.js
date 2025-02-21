@@ -91,16 +91,90 @@ const LaptopController = {
   async createLaptop(req, res) {
     try {
       const laptopData = req.body;
-      console.log("Menerima data laptop:", laptopData); // Logging request body
+      console.log("Menerima data laptop:", laptopData);
 
+  
       if (!laptopData.brand || !laptopData.model_name || !laptopData.price) {
         return res
           .status(400)
           .json({ message: "Brand, model_name, dan price wajib diisi" });
       }
 
-      const newLaptop = await LaptopModel.createLaptop(laptopData);
-      console.log("Laptop berhasil dibuat:", newLaptop); // Logging hasil penyimpanan
+
+      if (typeof laptopData.brand !== 'string' || typeof laptopData.model_name !== 'string') {
+        return res.status(400).json({ 
+          message: "Brand dan model_name harus berupa text" 
+        });
+      }
+
+    
+      if (typeof laptopData.price !== 'number' || laptopData.price <= 0) {
+        return res.status(400).json({ 
+          message: "Price harus berupa angka positif" 
+        });
+      }
+
+ 
+      if (laptopData.brand.length > 50 || laptopData.model_name.length > 100) {
+        return res.status(400).json({ 
+          message: "Brand maksimal 50 karakter dan model_name maksimal 100 karakter" 
+        });
+      }
+
+   
+      const sanitizedData = {
+        ...laptopData,
+        brand: laptopData.brand.replace(/<[^>]*>/g, '').trim(),
+        model_name: laptopData.model_name.replace(/<[^>]*>/g, '').trim(),
+        // price: laptopData.description ? 
+        //   laptopData.description.replace(/<[^>]*>/g, '').trim() : undefined
+      };
+
+    
+      const allowedBrands = ['lenovo', 'hp', 'dell', 'asus', 'acer', 'msi', 'axioo'];
+      if (!allowedBrands.includes(sanitizedData.brand)) {
+        return res.status(400).json({ 
+          message: "Brand tidak valid" 
+        });
+      }
+
+ 
+      const MAX_PRICE = 100000000;
+      if (sanitizedData.price > MAX_PRICE) {
+        return res.status(400).json({ 
+          message: `Price tidak boleh lebih dari ${MAX_PRICE}` 
+        });
+      }
+
+ 
+      if (sanitizedData.image_url) {
+        const urlPattern = /^https?:\/\/[^\s/$.?#].[^\s]*$/i;
+        if (!urlPattern.test(sanitizedData.image_url)) {
+          return res.status(400).json({ 
+            message: "Format image URL tidak valid" 
+          });
+        }
+      }
+
+   
+      const clientIP = req.ip;
+      const cacheKey = `createLaptop:${clientIP}`;
+      const requestCount = myCache.get(cacheKey) || 0;
+      
+      if (requestCount > 10) { 
+        return res.status(429).json({ 
+          message: "Terlalu banyak request. Coba lagi nanti." 
+        });
+      }
+      
+      myCache.set(cacheKey, requestCount + 1, 3600); 
+
+     
+      const newLaptop = await LaptopModel.createLaptop(sanitizedData);
+      console.log("Laptop berhasil dibuat:", newLaptop);
+
+   
+      myCache.del("laptops:all");
 
       res.status(201).json({
         message: "Laptop berhasil dibuat",
@@ -110,7 +184,7 @@ const LaptopController = {
       console.error("Error saat membuat laptop:", error);
       res.status(500).json({
         message: "Gagal membuat laptop",
-        error: error.message,
+        error: "Terjadi kesalahan internal server"
       });
     }
   },
