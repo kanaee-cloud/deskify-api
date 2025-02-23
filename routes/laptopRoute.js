@@ -106,11 +106,12 @@
 const express = require('express');
 const router = express.Router();
 const LaptopController = require('../controllers/laptopControllers');
+const { authenticateJWT, adminMiddleware } = require('../middlewares/authMiddleware');
 
 router.get('/', LaptopController.getLaptop);
 router.get('/:id', LaptopController.getLaptopById);
-router.delete('/:id', LaptopController.deleteLaptop);
-router.post('/', LaptopController.createLaptop);
-router.post('/import', LaptopController.importLaptops);
+router.delete('/:id', authenticateJWT, adminMiddleware, LaptopController.deleteLaptop);
+router.post('/', authenticateJWT, adminMiddleware, LaptopController.createLaptop);
+router.post('/import', authenticateJWT, adminMiddleware, LaptopController.importLaptops);
 
 module.exports = router;

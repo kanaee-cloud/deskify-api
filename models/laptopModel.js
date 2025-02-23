@@ -1,8 +1,8 @@
-const db = require('../config/firebase')
+const { db } = require('../config/firebase')
 
 const LaptopModel = {
     async getAllLaptop(){
-        const snapshot = await db.collection('laptops').get()
+        const snapshot = await db.collection('laptops').orderBy('id').get()
         if(snapshot.empty) return []
 
         return snapshot.docs.map((doc) => {
