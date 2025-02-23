@@ -97,6 +97,9 @@ const PackageController = require('../controllers/packageControllers');
 
 router.get('/', PackageController.getPackages);
 router.get('/:id', PackageController.getPackageById);
+router.post('/', PackageController.createPackage);
+router.put('/:id', PackageController.updatePackage);
+router.delete('/:id', PackageController.deletePackage);
 router.post('/import', PackageController.importPackages);
 
 module.exports = router;
