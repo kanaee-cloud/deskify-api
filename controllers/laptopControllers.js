@@ -217,6 +217,102 @@ const LaptopController = {
       });
     }
   },
+
+  async updateLaptop(req, res) {
+    try {
+      const { id } = req.params;
+      const updateData = req.body;
+      
+      console.log(`Menerima request update untuk ID: ${id}`, updateData);
+  
+      if (!id) {
+        return res.status(400).json({ message: "ID harus disertakan" });
+      }
+  
+      // Validate input
+      if (updateData.brand) {
+        if (typeof updateData.brand !== 'string') {
+          return res.status(400).json({ message: "Brand harus berupa text" });
+        }
+        
+        if (updateData.brand.length > 50) {
+          return res.status(400).json({ message: "Brand maksimal 50 karakter" });
+        }
+        
+        // Sanitize brand
+        updateData.brand = updateData.brand.replace(/<[^>]*>/g, '').trim();
+        
+        // Check if brand is in allowed list
+        const allowedBrands = ['lenovo', 'hp', 'dell', 'asus', 'acer', 'msi', 'axioo'];
+        if (!allowedBrands.includes(updateData.brand)) {
+          return res.status(400).json({ message: "Brand tidak valid" });
+        }
+      }
+  
+      if (updateData.model_name) {
+        if (typeof updateData.model_name !== 'string') {
+          return res.status(400).json({ message: "Model name harus berupa text" });
+        }
+        
+        if (updateData.model_name.length > 100) {
+          return res.status(400).json({ message: "Model name maksimal 100 karakter" });
+        }
+        
+        // Sanitize model name
+        updateData.model_name = updateData.model_name.replace(/<[^>]*>/g, '').trim();
+      }
+  
+      // if (updateData.price !== undefined) {
+      //   const MAX_PRICE = 100000000;
+      //   if (typeof updateData.price !== 'number' || updateData.price <= 0) {
+      //     return res.status(400).json({ message: "Price harus berupa angka positif" });
+      //   }
+        
+      //   if (updateData.price > MAX_PRICE) {
+      //     return res.status(400).json({ message: `Price tidak boleh lebih dari ${MAX_PRICE}` });
+      //   }
+      // }
+  
+      if (updateData.image_url) {
+        const urlPattern = /^https?:\/\/[^\s/$.?#].[^\s]*$/i;
+        if (!urlPattern.test(updateData.image_url)) {
+          return res.status(400).json({ message: "Format image URL tidak valid" });
+        }
+      }
+  
+     
+      const updatedLaptop = await LaptopModel.updateLaptop(id, updateData);
+      
+      
+      myCache.del(`laptop:${id}`);
+      
+      const cacheKeys = myCache.keys();
+      cacheKeys.forEach(key => {
+        if (key.startsWith('laptops:')) {
+          myCache.del(key);
+        }
+      });
+  
+      res.status(200).json({
+        message: `Laptop dengan ID: ${id} berhasil diupdate`,
+        laptop: updatedLaptop
+      });
+    } catch (error) {
+      console.error("Gagal mengupdate laptop:", error);
+      
+      // Check if it's a not found error
+      if (error.message.includes('tidak ditemukan')) {
+        return res.status(404).json({ 
+          message: error.message 
+        });
+      }
+      
+      res.status(500).json({
+        message: "Gagal mengupdate laptop",
+        error: error.message
+      });
+    }
+  },
   async importLaptops(req, res) {
     try {
       const laptops = jsonData.laptops;

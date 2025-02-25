@@ -112,6 +112,7 @@ router.get('/', LaptopController.getLaptop);
 router.get('/:id', LaptopController.getLaptopById);
 router.delete('/:id', authenticateJWT, adminMiddleware, LaptopController.deleteLaptop);
 router.post('/', authenticateJWT, adminMiddleware, LaptopController.createLaptop);
+router.put('/:id', authenticateJWT, adminMiddleware, LaptopController.updateLaptop);
 router.post('/import', authenticateJWT, adminMiddleware, LaptopController.importLaptops);
 
 module.exports = router;

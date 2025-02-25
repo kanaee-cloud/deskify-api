@@ -46,8 +46,6 @@ const LaptopModel = {
         }
       },
 
-      
-
     async getLaptopById(id){
         const docRef = db.collection('laptops').doc(id)
         const doc = await docRef.get()
@@ -65,11 +63,26 @@ const LaptopModel = {
 
     async createLaptop(laptopData) {
         try {
-            const docRef = db.collection('laptops').doc(); // Biarkan Firebase yang generate ID
-            const id = docRef.id;
+            
+            const snapshot = await db.collection('laptops').orderBy('id').get();
+            let maxId = 0;
+            
+            
+            if (!snapshot.empty) {
+                snapshot.forEach(doc => {
+                    const data = doc.data();
+                    const currentId = parseInt(data.id);
+                    if (!isNaN(currentId) && currentId > maxId) {
+                        maxId = currentId;
+                    }
+                });
+            }
+            
+          
+            const newId = String(maxId + 1).padStart(3, '0');
     
             const laptop = {
-                id,
+                id: newId,
                 brand: laptopData.brand || null,
                 model_name: laptopData.model_name || null,
                 ram: laptopData.ram || null,
@@ -82,16 +95,37 @@ const LaptopModel = {
                 gpu: laptopData.gpu || null
             };
     
-            await docRef.set(laptop);
+            await db.collection('laptops').doc(newId).set(laptop);
             return laptop;
         } catch (error) {
             throw error;
         }
-    }
-    ,
+    },
     
-
-
+    async updateLaptop(id, updatedData) {
+        try {
+          const docRef = db.collection('laptops').doc(id);
+          const doc = await docRef.get();
+      
+          if (!doc.exists) {
+            throw new Error(`Laptop dengan id: ${id} tidak ditemukan`);
+          }
+      
+          const filteredUpdate = Object.keys(updatedData).reduce((obj, key) => {
+            if (updatedData[key] !== undefined && key !== 'id') { 
+              obj[key] = updatedData[key];
+            }
+            return obj;
+          }, {});
+      
+          await docRef.update(filteredUpdate);
+          
+          const updatedDoc = await docRef.get();
+          return updatedDoc.data();
+        } catch (error) {
+          throw error;
+        }
+      },
 
     async importLaptops(laptops){
         for (const [index, item] of laptops.entries()) {
