@@ -108,11 +108,11 @@ const LaptopController = {
       }
 
     
-      if (typeof laptopData.price !== 'number' || laptopData.price <= 0) {
-        return res.status(400).json({ 
-          message: "Price harus berupa angka positif" 
-        });
-      }
+      // if (typeof laptopData.price !== 'number' || laptopData.price <= 0) {
+      //   return res.status(400).json({ 
+      //     message: "Price harus berupa angka positif" 
+      //   });
+      // }
 
  
       if (laptopData.brand.length > 50 || laptopData.model_name.length > 100) {

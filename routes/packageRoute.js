@@ -94,12 +94,13 @@
 const express = require('express');
 const router = express.Router();
 const PackageController = require('../controllers/packageControllers');
+const { authenticateJWT, adminMiddleware } = require('../middlewares/authMiddleware');
 
 router.get('/', PackageController.getPackages);
 router.get('/:id', PackageController.getPackageById);
-router.post('/', PackageController.createPackage);
-router.put('/:id', PackageController.updatePackage);
-router.delete('/:id', PackageController.deletePackage);
-router.post('/import', PackageController.importPackages);
+router.post('/', authenticateJWT, adminMiddleware, PackageController.createPackage);
+router.put('/:id', authenticateJWT, adminMiddleware, PackageController.updatePackage);
+router.delete('/:id', authenticateJWT, adminMiddleware, PackageController.deletePackage);
+router.post('/import', authenticateJWT, adminMiddleware, PackageController.importPackages);
 
 module.exports = router;
