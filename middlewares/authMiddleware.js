@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
 
-const SECRET_KEY = "supersecretkey";
+const SECRET_KEY = process.env.SECRET_KEY;
 
 const authenticateJWT = (req, res, next) => {
   const authHeader = req.header("Authorization");
